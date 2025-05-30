@@ -1,0 +1,195 @@
+# Skin&Beam HK對話流程定義
+
+dialog_flows:
+  - name: 問候
+    description: 問候客人嘅流程
+    steps:
+      - intent: greeting
+        response: greeting_response
+      - intent: ask_name
+        response: ask_name_response
+        collect:
+          - name: customer_name
+            type: text
+      - intent: confirm_name
+        response: confirm_name_response
+        condition: "customer_name is not None"
+
+  - name: 預約
+    description: 預約流程
+    steps:
+      - intent: book_appointment
+        response: book_appointment_options
+      - intent: select_branch
+        response: confirm_branch
+        collect:
+          - name: selected_branch
+            type: options
+            options:
+              - "CWB"
+              - "TST"
+              - "MK"
+      - intent: select_date
+        response: confirm_date
+        collect:
+          - name: appointment_date
+            type: date
+      - intent: select_time
+        response: confirm_time
+        collect:
+          - name: appointment_time
+            type: time
+      - intent: confirm_appointment
+        response: appointment_confirmed
+        condition: "selected_branch is not None and appointment_date is not None and appointment_time is not None"
+
+  - name: 服務咨詢
+    description: 服務咨詢流程
+    steps:
+      - intent: ask_about_service
+        response: service_categories
+      - intent: select_service_category
+        response: show_services_in_category
+        collect:
+          - name: service_category
+            type: options
+            options:
+              - "TOXIN"
+              - "膠原蛋白刺激注射"
+              - "Skin Booster"
+              - "Rejuran"
+              - "Thread Lifting"
+              - "Secret Laser"
+              - "POTENZA"
+              - "Ultherapy"
+              - "Thermage"
+              - "Lifting & Firming"
+              - "Body Contouring"
+              - "美白 / 毛孔 / 暗瘡"
+      - intent: ask_service_details
+        response: service_details
+        collect:
+          - name: selected_service
+            type: text
+
+  - name: 分店資訊
+    description: 提供分店資訊
+    steps:
+      - intent: ask_branch_info
+        response: list_branches
+      - intent: select_branch_info
+        response: branch_details
+        collect:
+          - name: branch_for_info
+            type: options
+            options:
+              - "CWB"
+              - "TST"
+              - "MK"
+
+  - name: 付款資訊
+    description: 付款方式資訊
+    steps:
+      - intent: ask_payment_methods
+        response: payment_options
+      - intent: select_payment_type
+        response: payment_type_details
+        collect:
+          - name: payment_type
+            type: options
+            options:
+              - "online"
+              - "診所"
+
+  - name: 特殊客人
+    description: 處理特殊客人嘅資訊
+    steps:
+      - intent: pregnant_customer
+        response: pregnant_customer_info
+      - intent: isotretinoin_user
+        response: isotretinoin_user_info
+      - intent: high_risk_customer
+        response: high_risk_customer_info
+
+  - name: 投訴反饋
+    description: 處理投訴或者反饋
+    steps:
+      - intent: complaint
+        response: handle_complaint
+        collect:
+          - name: complaint_details
+            type: text
+      - intent: request_refund
+        response: refund_policy
+      - intent: alternative_solutions
+        response: offer_alternatives
+
+  - name: 療程執行者
+    description: 提供關於邊個做療程嘅資訊
+    steps:
+      - intent: ask_performer
+        response: treatment_performer_info
+      - intent: ask_about_doctor
+        response: doctor_treatments
+      - intent: ask_about_technician
+        response: technician_treatments
+
+  - name: 療程後注意事項
+    description: 提供療程後嘅注意事項
+    steps:
+      - intent: aftercare_info
+        response: general_aftercare
+      - intent: specific_treatment_aftercare
+        response: specific_aftercare
+        collect:
+          - name: treatment_name
+            type: text
+
+conditions:
+  - name: 營業時間
+    description: 營業時間條件
+    params:
+      - day_type: ["weekday", "weekend", "holiday"]
+    check: |
+      if day_type == "weekday":
+        return "11:00 - 21:00"
+      else:
+        return "10:00 - 20:00"
+
+  - name: 檢查服務可用性
+    description: 檢查服務喺分店嘅可用性
+    params:
+      - service_name: string
+      - branch_name: string
+    check: |
+      if service_name == "PicoSure Toning Laser 755nm" and branch_name != "TST":
+        return False
+      return True
+
+actions:
+  - name: 發送預約確認
+    description: 發送預約確認電郵
+    execute: |
+      send_email(
+        to=customer_email,
+        subject="Skin&Beam HK預約確認",
+        body=f"你好 {customer_name}, 你嘅預約已確認，地點係{selected_branch}分店，日期係{appointment_date}，時間係{appointment_time}。"
+      )
+
+  - name: 檢查服務可用性
+    description: 檢查服務嘅可用性
+    execute: |
+      availability = database.query(
+        "SELECT availability FROM services WHERE name = ? AND branch = ?",
+        [service_name, branch_name]
+      )
+      return availability > 0
+
+  - name: 推薦相關服務
+    description: 推薦相關服務
+    execute: |
+      related = database.query(
+        "SELECT name FROM services WHERE category = (SELECT category FROM services WHERE name = ?) AND name != ?",
+        [service_name, service_name]
+      )
+      return related[:3]

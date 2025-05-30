@@ -1,0 +1,423 @@
+version: "1.0"
+
+# 예약 프로세스 다이얼로그 플로우
+reservation_flow:
+  initial_state: greeting
+  states:
+    greeting:
+      type: message
+      content: "안녕하세요, 뮤즈클리닉 강남점입니다. 어떻게 도와드릴까요?"
+      transitions:
+        - intent: reservation_inquiry
+          next_state: reservation_options
+        - intent: walk_in_inquiry
+          next_state: walk_in_info
+        - intent: other_inquiry
+          next_state: general_help
+
+    reservation_options:
+      type: message
+      content: "예약은 공식 홈페이지(https://gangnam.museclinic.co.kr/en)를 통해 가능합니다. 또한 방문 예약을 원하시면 필요한 정보를 알려주시겠어요? (이름, 생년월일, 이메일, 원하는 날짜와 시간)"
+      transitions:
+        - intent: provide_reservation_info
+          next_state: confirm_reservation
+        - intent: website_issues
+          next_state: reservation_assistance
+        - intent: ask_about_treatments
+          next_state: treatment_info
+
+    walk_in_info:
+      type: message
+      content: "워크인 방문도 가능합니다. 평일에는 영업 종료 1시간 전까지 도착하시면 되고, 토요일은 3:00 PM(종료 2시간 전)까지 방문하셔야 당일 상담 및 시술이 가능합니다."
+      transitions:
+        - intent: ask_about_treatments
+          next_state: treatment_info
+        - intent: confirm_understanding
+          next_state: farewell
+
+    confirm_reservation:
+      type: message
+      content: "예약 정보 감사합니다. 요청하신 시간으로 예약이 완료되었습니다. 예약 확인 이메일을 보내드렸으니 확인해 주세요. 이메일을 받지 못하셨더라도 예약하신 시간에 방문하시면 됩니다."
+      transitions:
+        - intent: reservation_change
+          next_state: change_reservation
+        - intent: reservation_cancel
+          next_state: cancel_reservation
+        - intent: confirm_understanding
+          next_state: farewell
+
+    change_reservation:
+      type: message
+      content: "예약 변경 요청이 완료되었습니다. 변경하고 싶은 시간에 방문하시면 됩니다. 이메일로 재확인하실 필요는 없습니다."
+      transitions:
+        - intent: confirm_understanding
+          next_state: farewell
+        - intent: ask_about_treatments
+          next_state: treatment_info
+
+    cancel_reservation:
+      type: message
+      content: "예약 취소가 완료되었습니다. 알려주셔서 감사합니다. 이메일 확인은 필요하지 않습니다. 다음에 뵙겠습니다."
+      transitions:
+        - intent: new_reservation
+          next_state: reservation_options
+        - intent: confirm_understanding
+          next_state: farewell
+
+    reservation_assistance:
+      type: message
+      content: "웹사이트 문제로 예약이 안 되는 경우에도 걱정 마세요. 원하시는 시간으로 예약 확정해 드리겠습니다. 필요한 정보(이름, 생년월일, 이메일, 원하는 날짜와 시간)를 알려주시겠어요?"
+      transitions:
+        - intent: provide_reservation_info
+          next_state: confirm_reservation
+        - intent: ask_about_treatments
+          next_state: treatment_info
+
+    treatment_info:
+      type: message
+      content: "어떤 시술에 관심이 있으신가요? 리프팅, 보톡스, 필러, 피부관리 등 다양한 시술을 제공하고 있습니다."
+      transitions:
+        - intent: specific_treatment_inquiry
+          next_state: specific_treatment_details
+        - intent: price_inquiry
+          next_state: price_information
+        - intent: promotion_inquiry
+          next_state: promotion_information
+
+    specific_treatment_details:
+      type: message
+      content: "해당 시술에 대한 상세 정보를 안내해 드리겠습니다. [시술 정보]"
+      transitions:
+        - intent: price_inquiry
+          next_state: price_information
+        - intent: reservation_inquiry
+          next_state: reservation_options
+        - intent: confirm_understanding
+          next_state: farewell
+
+    price_information:
+      type: message
+      content: "가격 정보를 안내해 드리겠습니다. [가격 정보] 모든 가격은 VAT 10% 별도입니다."
+      transitions:
+        - intent: promotion_inquiry
+          next_state: promotion_information
+        - intent: reservation_inquiry
+          next_state: reservation_options
+        - intent: confirm_understanding
+          next_state: farewell
+
+    promotion_information:
+      type: message
+      content: "현재 진행 중인 프로모션 정보입니다. [프로모션 정보] 모든 가격은 VAT 10% 별도입니다."
+      transitions:
+        - intent: reservation_inquiry
+          next_state: reservation_options
+        - intent: specific_treatment_inquiry
+          next_state: specific_treatment_details
+        - intent: confirm_understanding
+          next_state: farewell
+
+    general_help:
+      type: message
+      content: "다른 어떤 정보가 필요하신가요? 시술 정보, 가격, 프로모션, 예약 방법 등에 대해 안내해 드릴 수 있습니다."
+      transitions:
+        - intent: location_inquiry
+          next_state: location_info
+        - intent: operating_hours_inquiry
+          next_state: hours_info
+        - intent: treatment_inquiry
+          next_state: treatment_info
+        - intent: reservation_inquiry
+          next_state: reservation_options
+
+    location_info:
+      type: message
+      content: "뮤즈클리닉 강남점 위치는 다음과 같습니다. 본관: 서울시 강남구 강남대로 452, 대연빌딩 2~5층, 별관: 서울시 강남구 강남대로 458, 남영빌딩 5층. 강남역 11번 출구 또는 신논현역 6번 출구에서 도보로 오실 수 있습니다."
+      transitions:
+        - intent: operating_hours_inquiry
+          next_state: hours_info
+        - intent: reservation_inquiry
+          next_state: reservation_options
+        - intent: confirm_understanding
+          next_state: farewell
+
+    hours_info:
+      type: message
+      content: "영업시간은 평일(월-금) 11:00 AM - 9:00 PM, 토요일 11:00 AM - 5:00 PM이며, 일요일은 휴무입니다."
+      transitions:
+        - intent: walk_in_inquiry
+          next_state: walk_in_info
+        - intent: reservation_inquiry
+          next_state: reservation_options
+        - intent: confirm_understanding
+          next_state: farewell
+
+    farewell:
+      type: message
+      content: "다른 궁금하신 점이 있으시면 언제든지 문의해 주세요. 뮤즈클리닉 강남점을 이용해 주셔서 감사합니다."
+      transitions:
+        - intent: new_inquiry
+          next_state: general_help
+        - intent: end_conversation
+          next_state: end
+
+    end:
+      type: end
+
+# 특별 응대 다이얼로그 플로우
+special_response_flow:
+  initial_state: initial_inquiry
+  states:
+    initial_inquiry:
+      type: message
+      content: "어떻게 도와드릴까요?"
+      transitions:
+        - intent: influencer_collab
+          next_state: influencer_response
+        - intent: refund_policy
+          next_state: refund_policy_response
+        - intent: allergy_inquiry
+          next_state: allergy_response
+        - intent: holiday_hours
+          next_state: holiday_hours_response
+        - intent: receipt_request
+          next_state: receipt_response
+        - intent: unsupported_service
+          next_state: unsupported_service_response
+        - intent: pregnancy_inquiry
+          next_state: pregnancy_response
+        - intent: after_hours_inquiry
+          next_state: after_hours_response
+
+    influencer_response:
+      type: message
+      content: "Thank you very much for your interest and contacting us. We are currently working on improvements across general areas such as product composition, marketing, etc. Therefore, it is difficult for us to accept your request at this time. We hope there will be better opportunities for cooperation in the future."
+      transitions:
+        - intent: any
+          next_state: farewell
+
+    refund_policy_response:
+      type: message
+      content: "해당 질문에 답변드리기 위해서는 저희 스텝에게 확인이 필요합니다. 조금만 기다려주시면 스텝에게 확인 후 답변 드리겠습니다."
+      transitions:
+        - intent: any
+          next_state: farewell
+
+    allergy_response:
+      type: message
+      content: "해당 질문에 답변드리기 위해서는 저희 스텝에게 확인이 필요합니다. 조금만 기다려주시면 스텝에게 확인 후 답변 드리겠습니다."
+      transitions:
+        - intent: any
+          next_state: farewell
+
+    holiday_hours_response:
+      type: message
+      content: "해당 질문에 답변드리기 위해서는 저희 스텝에게 확인이 필요합니다. 조금만 기다려주시면 스텝에게 확인 후 답변 드리겠습니다."
+      transitions:
+        - intent: any
+          next_state: farewell
+
+    receipt_response:
+      type: message
+      content: "해당 질문에 답변드리기 위해서는 저희 스텝에게 확인이 필요합니다. 조금만 기다려주시면 스텝에게 확인 후 답변 드리겠습니다."
+      transitions:
+        - intent: any
+          next_state: farewell
+
+    unsupported_service_response:
+      type: message
+      content: "죄송합니다만, 저희는 해당 서비스를 제공하지 않습니다. 저희는 덜 침습적이고 부작용 위험이 적은 시술들에 집중하고 있습니다. 저희 웹사이트에서 전체 서비스 목록을 확인하실 수 있습니다. 다른 질문이 있으시면 편하게 문의해주세요."
+      transitions:
+        - intent: any
+          next_state: farewell
+
+    pregnancy_response:
+      type: message
+      content: "임신 중인 고객에게는 안전상의 이유로 미용 시술이나 스킨케어 치료를 추천하지 않습니다. 임신 중에는 대부분의 전문적인 시술을 피하는 것이 좋으며, 기본적인 순한 스킨케어 루틴을 유지하는 것이 중요합니다."
+      transitions:
+        - intent: any
+          next_state: farewell
+
+    after_hours_response:
+      type: message
+      content: "죄송합니다만, 영업시간 외 방문은 불가능합니다. 저희 영업시간은 평일(월-금) 11:00 AM - 9:00 PM, 토요일 11:00 AM - 5:00 PM이며, 일요일은 휴무입니다."
+      transitions:
+        - intent: any
+          next_state: farewell
+
+    farewell:
+      type: message
+      content: "다른 궁금하신 점이 있으시면 언제든지 문의해 주세요. 뮤즈클리닉 강남점을 이용해 주셔서 감사합니다."
+      transitions:
+        - intent: new_inquiry
+          next_state: initial_inquiry
+        - intent: end_conversation
+          next_state: end
+
+    end:
+      type: end
+
+# 시술 추천 다이얼로그 플로우
+treatment_recommendation_flow:
+  initial_state: ask_concern
+  states:
+    ask_concern:
+      type: message
+      content: "어떤 피부 고민이 있으신가요?"
+      transitions:
+        - intent: skin_tone
+          next_state: skin_tone_recommendation
+        - intent: texture_pores
+          next_state: texture_pores_recommendation
+        - intent: scars
+          next_state: scars_recommendation
+        - intent: redness
+          next_state: redness_recommendation
+        - intent: acne_scars
+          next_state: acne_scars_recommendation
+        - intent: pigmentation
+          next_state: pigmentation_recommendation
+        - intent: acne
+          next_state: acne_recommendation
+        - intent: lifting
+          next_state: lifting_recommendation
+        - intent: other_concerns
+          next_state: consultation_recommendation
+
+    skin_tone_recommendation:
+      type: message
+      content: "피부톤 개선을 위해서는 피코슈어/피코플러스 토닝, 큐어젯 필메드 시술을 추천드립니다."
+      transitions:
+        - intent: more_details
+          next_state: treatment_details
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+
+    texture_pores_recommendation:
+      type: message
+      content: "텍스처와 모공 개선을 위해서는 포텐자, 프락셀, 큐어젯, 리즈네 시술을 추천드립니다. 효과적인 개선을 위해서는 수회 반복이 필요합니다."
+      transitions:
+        - intent: more_details
+          next_state: treatment_details
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+
+    scars_recommendation:
+      type: message
+      content: "흉터 개선을 위해서는 시크릿, 프락셀, 포텐자, 리쥬란 시술을 추천드립니다. 효과적인 개선을 위해서는 수회 반복이 필요합니다."
+      transitions:
+        - intent: more_details
+          next_state: treatment_details
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+
+    redness_recommendation:
+      type: message
+      content: "홍조와 붉은기 개선을 위해서는 Cynergy 레이저, LDM 시술을 추천드립니다."
+      transitions:
+        - intent: more_details
+          next_state: treatment_details
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+
+    acne_scars_recommendation:
+      type: message
+      content: "여드름 흉터 개선을 위해서는 포텐자, 프락셀, 시크릿, 리쥬란 시술을 추천드립니다. 효과적인 개선을 위해서는 수회 반복이 필요합니다."
+      transitions:
+        - intent: more_details
+          next_state: treatment_details
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+
+    pigmentation_recommendation:
+      type: message
+      content: "색소침착과 다크스팟 개선을 위해서는 피코토닝, Cynergy 레이저 시술을 추천드립니다. 다만, 완전한 해결은 어려울 수 있으며 수회 반복이 필요합니다."
+      transitions:
+        - intent: more_details
+          next_state: treatment_details
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+
+    acne_recommendation:
+      type: message
+      content: "여드름 개선을 위해서는 피코슈어/피코플러스, 아쿠아 필링, 블랙필, 라라필 시술을 추천드립니다."
+      transitions:
+        - intent: more_details
+          next_state: treatment_details
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+
+    lifting_recommendation:
+      type: message
+      content: "리프팅 효과를 위해서는 울쎄라, 써마지, 인모드, 올리지오, 덴서티 같은 HIFU나 RF 시술을 추천드립니다."
+      transitions:
+        - intent: more_details
+          next_state: treatment_details
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+
+    consultation_recommendation:
+      type: message
+      content: "고객님의 피부 상태에 맞는 맞춤형 상담이 필요합니다. 예약하시면 전문 상담사가 자세히 상담해 드립니다."
+      transitions:
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+        - intent: other_concerns
+          next_state: ask_concern
+
+    treatment_details:
+      type: message
+      content: "시술에 대한 자세한 정보입니다. [시술 상세 정보]"
+      transitions:
+        - intent: price_inquiry
+          next_state: price_info
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+        - intent: other_concerns
+          next_state: ask_concern
+
+    price_info:
+      type: message
+      content: "해당 시술의 가격 정보입니다. [가격 정보] 현재 진행 중인 프로모션도 있습니다. [프로모션 정보] 모든 가격은 VAT 10% 별도입니다."
+      transitions:
+        - intent: reservation_intent
+          next_state: reservation_recommendation
+        - intent: other_concerns
+          next_state: ask_concern
+
+    reservation_recommendation:
+      type: message
+      content: "예약은 공식 홈페이지(https://gangnam.museclinic.co.kr/en)를 통해 가능합니다. 또한 평일에는 영업 종료 1시간 전까지, 토요일에는 3:00 PM까지 워크인 방문도 가능합니다."
+      transitions:
+        - intent: other_concerns
+          next_state: ask_concern
+        - intent: end_conversation
+          next_state: farewell
+
+    farewell:
+      type: message
+      content: "다른 궁금하신 점이 있으시면 언제든지 문의해 주세요. 뮤즈클리닉 강남점을 이용해 주셔서 감사합니다."
+      transitions:
+        - intent: new_inquiry
+          next_state: ask_concern
+        - intent: end_conversation
+          next_state: end
+
+    end:
+      type: end

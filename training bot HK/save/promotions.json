@@ -1,0 +1,204 @@
+{
+  "promotions": [
+    {
+      "id": "potenza_new_package_2025",
+      "name": "POTENZA新套餐",
+      "description": "POTENZA + Hydra Regeneration: $1,980 (減35%)",
+      "start_date": "2025-04-01",
+      "end_date": "2025-06-30",
+      "details": "有效期365日，冇限制購買數量，可以用信用卡",
+      "terms": [
+        "適用於新客同舊客",
+        "購買日起計365日內有效",
+        "唔可以同其他優惠一齊用"
+      ]
+    },
+    {
+      "id": "ez_lift_hifu_discount",
+      "name": "EZ Lift HIFU優惠",
+      "description": "EZ Lift HIFU系列減價",
+      "start_date": "2025-03-01",
+      "end_date": "2025-05-31",
+      "details": "EZ Lift HIFU 1000發 (Pen): $250 (原價$290), EZ Lift HIFU 300發 (Line): $320 (原價$380), EZ Lift HIFU 300發 (Line) + 1000發 (Pen): $520 (原價$580)",
+      "terms": [
+        "適用於所有客人",
+        "唔可以同其他優惠一齊用",
+        "優惠期內有效"
+      ]
+    },
+    {
+      "id": "first_time_ultherapy",
+      "name": "首次Ultherapy優惠",
+      "description": "首次使用Ultherapy嘅特別價",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "details": "Ultherapy [首次 - 醫生] 100發: $1,688 (普通價$3,000), Ultherapy [首次 - 技術員] 100發: $1,080 (普通價$1,100)",
+      "terms": [
+        "只適用於從未喺Skin&Beam HK做過Ultherapy嘅客人",
+        "每位客人只可享用一次",
+        "唔可以同其他優惠一齊用"
+      ]
+    },
+    {
+      "id": "thermage_technician_discount",
+      "name": "技術員Thermage優惠",
+      "description": "技術員進行Thermage嘅特別優惠",
+      "start_date": "2025-02-01",
+      "end_date": "2025-05-31",
+      "details": "Thermage [技術員] 面部 600發: $6,480 (比醫生版本慳$6,320)",
+      "terms": [
+        "適用於所有客人",
+        "必須預約",
+        "視乎皮膚狀況同免費咨詢評估"
+      ]
+    },
+    {
+      "id": "laser_package_discount",
+      "name": "激光套餐優惠",
+      "description": "多次激光療程套餐優惠",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "details": "Toning Laser 5療程: $1,400 (慳$100), Picoplus 1064nm Toning Laser 5療程: $900 (慳$50), PicoSure Toning Laser 755nm 5療程: $900 (慳$50)",
+      "terms": [
+        "適用於所有客人",
+        "購買日起計180日內有效",
+        "各次療程最少要隔3星期"
+      ]
+    },
+    {
+      "id": "body_package_discount",
+      "name": "身體療程套餐優惠",
+      "description": "身體區域療程套餐優惠",
+      "start_date": "2025-03-15",
+      "end_date": "2025-06-15",
+      "details": "Ulfit™ 800發 腹部 5療程: $2,780 (比單買慳$620), Body Toning Laser (小腿) 3療程: $550 (比單獨療程慳錢)",
+      "terms": [
+        "適用於所有客人",
+        "購買日起計180日內有效",
+        "各次療程最少要隔2星期"
+      ]
+    },
+    {
+      "id": "saxenda_package_discount",
+      "name": "Saxenda (減肥)套餐優惠",
+      "description": "買多支Saxenda慳錢",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "details": "Saxenda 6支 (2盒): $9,370 (比單買慳$630), Saxenda 12支 (4盒一個療程): $18,020 (比單買慳$1,980)",
+      "terms": [
+        "適用於所有客人",
+        "必須先同醫生咨詢",
+        "產品有使用期限，請收貨時檢查"
+      ]
+    },
+    {
+      "id": "hair_removal_package",
+      "name": "脫毛套餐優惠",
+      "description": "5次脫毛套餐慳錢",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "details": "脫毛 (S) x 5療程: $400 (慳16.7%), 脫毛 (M) x 5療程: $900 (慳10%), 脫毛 (L) x 5療程: $1,500 (慳12.5%)",
+      "terms": [
+        "適用於所有客人",
+        "購買日起計365日內有效",
+        "各次療程最少要隔4-6星期，視乎脫毛區域"
+      ]
+    },
+    {
+      "id": "contour_injection_package",
+      "name": "Contour Injection套餐優惠",
+      "description": "3次Contour Injection套餐慳錢",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "details": "Contour Injection (面部/雙下巴) 3療程: $800 (比單買慳$100)",
+      "terms": [
+        "適用於所有客人",
+        "購買日起計180日內有效",
+        "各次療程最少要隔3-4星期"
+      ]
+    },
+    {
+      "id": "seasonal_spring_2025",
+      "name": "2025春季優惠",
+      "description": "2025春季特別優惠",
+      "start_date": "2025-03-01",
+      "end_date": "2025-05-31",
+      "details": "星期二同星期三所有Lifting & Firming服務9折",
+      "terms": [
+        "適用於所有客人",
+        "只適用於星期二同星期三",
+        "唔可以同其他優惠一齊用",
+        "需要至少提前24小時預約"
+      ]
+    }
+  ],
+  "seasonal_promotions": [
+    {
+      "id": "valentines_2025",
+      "name": "2025情人節優惠",
+      "description": "情人節特別服務",
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-14",
+      "details": "兩人一齊預約所有皮膚護理服務85折",
+      "terms": [
+        "必須兩人同一時段預約",
+        "唔可以同其他優惠一齊用",
+        "需要至少提前48小時預約"
+      ]
+    },
+    {
+      "id": "lunar_new_year_2025",
+      "name": "2025農曆新年優惠",
+      "description": "農曆新年特別優惠",
+      "start_date": "2025-01-15",
+      "end_date": "2025-02-15",
+      "details": "單次消費滿$2,000送Omega LED Light + Hydra Regeneration療程一次(價值$110)",
+      "terms": [
+        "適用於所有客人",
+        "單次消費滿$2,000",
+        "贈送療程需要同主療程同一日使用"
+      ]
+    },
+    {
+      "id": "summer_2025",
+      "name": "2025夏日優惠",
+      "description": "夏日特別優惠",
+      "start_date": "2025-06-01",
+      "end_date": "2025-08-31",
+      "details": "所有Body Contouring同脫毛服務85折",
+      "terms": [
+        "適用於所有客人",
+        "唔可以同其他優惠一齊用",
+        "需要預約"
+      ]
+    }
+  ],
+  "new_customer_promotions": [
+    {
+      "id": "welcome_offer_2025",
+      "name": "2025新客迎新優惠",
+      "description": "新客人特別優惠",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "details": "首次使用服務享85折(最多減$300)",
+      "terms": [
+        "只適用於首次嚟Skin&Beam HK嘅客人",
+        "唔適用於已減價嘅套餐",
+        "唔可以同其他優惠一齊用"
+      ]
+    },
+    {
+      "id": "first_visit_gift",
+      "name": "首次到診禮物",
+      "description": "新客人特別禮物",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "details": "首次到診單次消費滿$1,500送Aqua peel一次(價值$220)",
+      "terms": [
+        "只適用於首次嚟Skin&Beam HK嘅客人",
+        "單次消費滿$1,500",
+        "贈送療程可喺30日內使用"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "hifu_services": [
+    {
+      "name": "울쎄라(Ulthera)",
+      "description": "프리미엄 수입 HIFU 기술, SMAS층 타겟팅, 6~12개월 간격 재시술 권고",
+      "options": [
+        { "name": "울쎄라 프라임 100샷", "price": 440000, "discount": 43.0 },
+        { "name": "울쎄라 프라임 300샷", "price": 1200000, "discount": 43.0 },
+        { "name": "울쎄라 프라임 600샷", "price": 1980000, "discount": 42.0 },
+        { "name": "울쎄라 프라임 900샷", "price": 2990000, "discount": 43.0 },
+        { "name": "아이 울쎄라 프라임 100샷", "price": 490000, "discount": 44.0 }
+      ]
+    },
+    {
+      "name": "슈링크(Shurink)",
+      "description": "한국산 HIFU 기술, 울쎄라 대비 비용 효율적, 3개월 간격 재시술 권고",
+      "options": [
+        { "name": "F 100샷", "price": 49000, "discount": 0 },
+        { "name": "F 300샷", "price": 139000, "discount": 0 },
+        { "name": "부스터 100샷", "price": 49000, "discount": 0 }
+      ]
+    }
+  ],
+  "rf_services": [
+    {
+      "name": "써마지(Thermage)",
+      "description": "3.5세대 프리미엄 RF 기술, 중간~깊은 진피층 작용, 6~12개월 간격 재시술 권고",
+      "options": [
+        { "name": "써마지 300샷", "price": 998000, "discount": 0 },
+        { "name": "써마지 600샷", "price": 1690000, "discount": 0 },
+        { "name": "써마지 900샷", "price": 2700000, "discount": 0 },
+        { "name": "아이 써마지 FLX 225샷", "price": 990000, "discount": 0 },
+        { "name": "아이 써마지 FLX 450샷", "price": 1790000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "인모드(Inmode)",
+      "description": "탄력 향상, 비용 효율성 우수, 3개월 간격 재시술 권고",
+      "options": [
+        { "name": "FX 1부위", "price": 59000, "discount": 0 },
+        { "name": "FORMA", "price": 79000, "discount": 0 },
+        { "name": "FORMA+FX 풀페이스", "price": 189000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "올리지오(Oligio)",
+      "description": "한국산 RF 기술, 표면~중간 진피층 집중, 3~6개월 간격 재시술 권고",
+      "options": [
+        { "name": "올리지오 300샷", "price": 380000, "discount": 0 },
+        { "name": "올리지오 630샷", "price": 685000, "discount": 0 },
+        { "name": "아이올리지오 300샷", "price": 389000, "discount": 0 },
+        { "name": "아이올리지오 630샷", "price": 749000, "discount": 0 },
+        { "name": "올리지오 X 300샷", "price": 479000, "discount": 0 },
+        { "name": "올리지오 X 600샷", "price": 880000, "discount": 0 },
+        { "name": "아이올리지오 X 300샷", "price": 499000, "discount": 0 },
+        { "name": "아이올리지오 X 600샷", "price": 920000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "덴서티(Density)",
+      "description": "모노폴라/바이폴라 고주파 동시 전달, 5단계 쿨링 시스템, 임피던스 피드백 기술",
+      "options": [
+        { "name": "클래식 600샷", "price": 970000, "discount": 46.0 },
+        { "name": "하이 600샷", "price": 1390000, "discount": 46.1 }
+      ]
+    },
+    {
+      "name": "앰페이스(Emface)",
+      "description": "RF 에너지와 HIFES(고강도 안면 전기 자극) 결합, 안면 근육 톤 개선",
+      "options": [
+        { "name": "앰페이스 1회", "price": 749000, "discount": 42.0 },
+        { "name": "앰페이스 2회", "price": 1440000, "discount": 44.0 },
+        { "name": "앰페이스 3회", "price": 2100000, "discount": 43.6 }
+      ]
+    }
+  ],
+  "microneedling_services": [
+    {
+      "name": "포텐자",
+      "description": "모노폴라/바이폴라 RF 마이크로니들링, 다운타임 1-2일",
+      "options": [
+        { "name": "펌핑팁 + 아기주사 2cc 1회", "price": 180000, "discount": 0 },
+        { "name": "펌핑팁 + 필메드 3cc 1회", "price": 269000, "discount": 0 },
+        { "name": "펌핑팁 + 엑소좀ASCE 5cc 1회", "price": 319000, "discount": 0 },
+        { "name": "펌핑팁 + 쥬베룩 4cc 1회", "price": 389000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "MTS/기타",
+      "description": "피부 표면 재생과 텍스처 개선",
+      "options": [
+        { "name": "시크릿 레이저", "price": 109000, "discount": 0 },
+        { "name": "MTS_필메드 NCTF 135 3cc", "price": 149000, "discount": 0 },
+        { "name": "MTS_아기주사 2cc", "price": 150000, "discount": 0 },
+        { "name": "MTS_엑소좀 ASCE+ 5cc", "price": 269000, "discount": 0 },
+        { "name": "큐어젯", "price": 199000, "discount": 0 }
+      ]
+    }
+  ],
+  "skin_injection_services": [
+    {
+      "name": "쥬베룩(Juvelook)",
+      "description": "히알루론산 기반, 피부 수분/볼륨감 제공, 다운타임 1-2일",
+      "options": [
+        { "name": "쥬베룩 4cc + 물광 1cc", "price": 229000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "리쥬란(Rejuran)",
+      "description": "PN(polynucleotide) 성분, 피부 재생/회복, 다운타임 1-3일",
+      "options": [
+        { "name": "리쥬란 힐러 2cc", "price": 189000, "discount": 0 },
+        { "name": "리쥬란 HB Plus 1cc", "price": 160000, "discount": 0 },
+        { "name": "아이리쥬란 1cc", "price": 109000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "리즈네(Lizne)",
+      "description": "보습, 콜라겐 생성, 피부 재생, 모공 개선, 다운타임 1-2일",
+      "options": [
+        { "name": "리즈네 1cc", "price": 59000, "discount": 50.0, "note": "50개 한정" },
+        { "name": "리즈네 2cc", "price": 149000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "스킨바이브(Skinvive)",
+      "description": "마이크로 히알루론산 스킨부스터, 6개월까지 효과 지속",
+      "options": [
+        { "name": "스킨바이브 1cc", "price": 229000, "discount": 42.0 },
+        { "name": "스킨바이브 2cc", "price": 419000, "discount": 42.0 }
+      ]
+    },
+    {
+      "name": "기타 주사",
+      "description": "다양한 피부 개선 주사",
+      "options": [
+        { "name": "PDRN 연어재생주사 2cc", "price": 69000, "discount": 0 },
+        { "name": "릴리이드M 물광주사 5cc", "price": 159000, "discount": 0 },
+        { "name": "릴리이드M 물광톡신 5.5cc", "price": 179000, "discount": 0 }
+      ]
+    }
+  ],
+  "botox_services": [
+    {
+      "name": "턱보톡스 50U",
+      "options": [
+        { "name": "하이톡스", "price": 24000, "discount": 0 },
+        { "name": "이노톡스", "price": 29000, "discount": 0, "recommendation": true },
+        { "name": "코어톡스", "price": 49000, "discount": 0 },
+        { "name": "제오민", "price": 110000, "discount": 0 },
+        { "name": "엘러간", "price": 165000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "주름보톡스 1부위",
+      "options": [
+        { "name": "하이톡스", "price": 19000, "discount": 0 },
+        { "name": "이노톡스", "price": 24000, "discount": 0 },
+        { "name": "코어톡스", "price": 35000, "discount": 0 },
+        { "name": "제오민", "price": 55000, "discount": 0 },
+        { "name": "엘러간", "price": 69000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "바디보톡스 100U",
+      "description": "종아리 또는 승모근 선택 가능",
+      "options": [
+        { "name": "Korean 보톡스", "price": 45000, "discount": 0, "note": "추가 50U당 14,000원" },
+        { "name": "이노톡스", "price": 59000, "discount": 0, "note": "추가 50U당 20,000원" },
+        { "name": "코어톡스", "price": 89000, "discount": 0, "note": "추가 50U당 40,000원" },
+        { "name": "제오민", "price": 159000, "discount": 0, "note": "추가 50U당 130,000원" },
+        { "name": "엘러간", "price": 229000, "discount": 0, "note": "추가 50U당 170,000원" }
+      ]
+    },
+    {
+      "name": "다한증 보톡스 50U",
+      "options": [
+        { "name": "하이톡스", "price": 79000, "discount": 0 },
+        { "name": "이노톡스", "price": 89000, "discount": 0 },
+        { "name": "코어톡스", "price": 99000, "discount": 0 },
+        { "name": "제오민", "price": 129000, "discount": 0 },
+        { "name": "엘러간", "price": 169000, "discount": 0 }
+      ]
+    }
+  ],
+  "laser_services": [
+    {
+      "name": "피코레이저",
+      "options": [
+        { "name": "피코플러스 토닝", "price": 49000, "discount": 0 },
+        { "name": "피코슈어 토닝", "price": 49000, "discount": 0 },
+        { "name": "피코플러스 프락셀", "price": 69000, "discount": 0 },
+        { "name": "피코슈어 프락셀", "price": 69000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "카프리/사이너지",
+      "options": [
+        { "name": "카프리레이저(압출미포함)", "price": 59000, "discount": 0 },
+        { "name": "카프리레이저(압출포함)", "price": 89000, "discount": 0 },
+        { "name": "사이너지(Cynergy) 제네시스", "price": 49000, "discount": 0 },
+        { "name": "사이너지(Cynergy) MPX + LDM(홍조)", "price": 99000, "discount": 0 }
+      ]
+    }
+  ],
+  "body_contouring_services": [
+    {
+      "name": "바디 컨투어링",
+      "options": [
+        { "name": "바디인모드 FX 1부위", "price": 149000, "discount": 0 },
+        { "name": "울핏 300샷", "price": 199000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "지방분해 주사",
+      "options": [
+        { "name": "핑크팻 10cc", "price": 22000, "discount": 0 },
+        { "name": "핑크팻 40cc", "price": 70000, "discount": 0 },
+        { "name": "핑크팻 80cc", "price": 119000, "discount": 0 },
+        { "name": "걸그룹 100cc", "price": 59000, "discount": 0 },
+        { "name": "걸그룹 200cc", "price": 109000, "discount": 0 },
+        { "name": "바디 GPC 10cc", "price": 49000, "discount": 0 },
+        { "name": "바디 GPC 40cc", "price": 129000, "discount": 0 },
+        { "name": "바디 GPC 80cc", "price": 199000, "discount": 0 }
+      ]
+    }
+  ],
+  "skin_care_services": [
+    {
+      "name": "기본 관리",
+      "options": [
+        { "name": "진정관리(크라이오+LED)", "price": 50000, "discount": 0 },
+        { "name": "LDM(재생/홍조/여드름 모드 중 택1)", "price": 59000, "discount": 0 },
+        { "name": "프로폴리스관리", "price": 69000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "필링 관리",
+      "options": [
+        { "name": "아쿠아필(코압출미포함)", "price": 49000, "discount": 0 },
+        { "name": "아쿠아필(코압출포함)", "price": 59000, "discount": 0 },
+        { "name": "꿀광필", "price": 69000, "discount": 0 },
+        { "name": "라라필", "price": 69000, "discount": 0 },
+        { "name": "블랙필", "price": 69000, "discount": 0 },
+        { "name": "물톡스필", "price": 79000, "discount": 0 },
+        { "name": "펌킨 필", "price": 67900, "discount": 0 }
+      ]
+    },
+    {
+      "name": "압출",
+      "options": [
+        { "name": "10개", "price": 20000, "discount": 0 },
+        { "name": "20개", "price": 30000, "discount": 0 },
+        { "name": "30개", "price": 40000, "discount": 0 },
+        { "name": "얼굴 전체", "price": 60000, "discount": 0 }
+      ]
+    }
+  ],
+  "nutritional_injection_services": [
+    {
+      "name": "영양주사",
+      "options": [
+        { "name": "비타민C 주사", "price": 30000, "discount": 0 },
+        { "name": "백옥주사", "price": 30000, "discount": 0, "note": "미백 효과" },
+        { "name": "신데렐라 주사", "price": 40000, "discount": 0, "note": "피부톤/재생 효과" },
+        { "name": "태반주사", "price": 40000, "discount": 0 },
+        { "name": "마늘주사", "price": 40000, "discount": 0 },
+        { "name": "비타민D 주사", "price": 40000, "discount": 0 },
+        { "name": "칵테일 주사", "price": 90000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "가다실",
+      "options": [
+        { "name": "1회", "price": 199000, "discount": 0 },
+        { "name": "3회", "price": 590000, "discount": 0 }
+      ]
+    }
+  ],
+  "laser_hair_removal_services": {
+    "description": "아포지 755nm 알렉산드라이트 레이저 사용",
+    "female_options": [
+      { "name": "얼굴 관련", "price": 27000, "discount": 0, "package_price": 112000, "package_sessions": 5 },
+      { "name": "겨드랑이", "price": 27000, "discount": 0, "package_price": 112000, "package_sessions": 5 },
+      { "name": "다리 전체", "price": 82000, "discount": 0, "package_price": 364000, "package_sessions": 5 },
+      { "name": "브라질리언", "price": 82000, "discount": 0, "package_price": 349000, "package_sessions": 5 },
+      { "name": "상반신(앞/뒤)", "price": 55000, "discount": 0, "package_price": 238000, "package_sessions": 5 },
+      { "name": "종아리 발", "price": 55000, "discount": 0, "package_price": 226000, "package_sessions": 5 },
+      { "name": "팔 전체", "price": 55000, "discount": 0, "package_price": 238000, "package_sessions": 5 }
+    ],
+    "male_options": [
+      { "name": "얼굴 관련", "price": 41000, "discount": 0, "package_price": 182000, "package_sessions": 5 },
+      { "name": "겨드랑이", "price": 41000, "discount": 0 },
+      { "name": "다리 전체", "price": 111000, "discount": 0 },
+      { "name": "브라질리언", "price": 111000, "discount": 0 },
+      { "name": "상반신(앞/뒤)", "price": 82000, "discount": 0 },
+      { "name": "종아리 발", "price": 82000, "discount": 0 },
+      { "name": "팔 전체", "price": 82000, "discount": 0 }
+    ]
+  },
+  "filler_thread_services": [
+    {
+      "name": "볼 필러",
+      "options": [
+        { "name": "국산 1cc", "price": 130000, "discount": 0 },
+        { "name": "국산 2cc", "price": 260000, "discount": 0 },
+        { "name": "쥬비덤 1cc", "price": 330000, "discount": 0 },
+        { "name": "쥬비덤 2cc", "price": 660000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "입술 필러",
+      "options": [
+        { "name": "국산 1cc", "price": 130000, "discount": 0 },
+        { "name": "쥬비덤 1cc", "price": 330000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "턱 필러",
+      "options": [
+        { "name": "국산 1cc", "price": 130000, "discount": 0 }
+      ]
+    },
+    {
+      "name": "민트",
+      "options": [
+        { "name": "턱라인 2줄", "price": 91800, "discount": 0 },
+        { "name": "팔자라인 2줄", "price": 105800, "discount": 0 },
+        { "name": "턱라인 2줄 + 팔자라인 2줄", "price": 178000, "discount": 0 },
+        { "name": "더블 민트 패키지", "price": 498000, "discount": 0 }
+      ]
+    }
+  ],
+  "service_restrictions": [
+    "언더아이 필러 시술 제공하지 않음",
+    "타투 제거 시술 제공하지 않음",
+    "바디 트리트먼트(체스트 등)는 일반적으로 제공하지 않음",
+    "몰 리무벌(점 제거)는 제공하지 않음",
+    "가격표에 명시되지 않은 얼굴 외 피부에 대한 치료는 제공하지 않음",
+    "피코레이저 등은 얼굴 전용 (몸 부위에는 적용하지 않음)",
+    "Nd:YAG, CO2, Ablative 레이저 제공하지 않음",
+    "회음부/성기 등 민감 부위 시술 제한",
+    "실 리프팅은 나솔라비얼 폴드(팔자주름)와 턱라인(Jawline) 부위만 시술 가능",
+    "필러 주사는 볼(Cheek), 입술(Lip), 턱(Chin) 부위만 시술 가능"
+  ],
+  "payment_info": {
+    "cash_accepted": true,
+    "credit_card_accepted": true,
+    "apple_pay_accepted": false,
+    "installment_payment": "고객의 카드사 정책에 따름",
+    "vat_included": false,
+    "vat_rate": 10
+  },
+  "clinic_info": {
+    "main_building": {
+      "address": "서울시 강남구 강남대로 452, 대연빌딩 2~5층",
+      "floor": "2~5층"
+    },
+    "annex_building": {
+      "address": "서울시 강남구 강남대로 458, 남영빌딩 5층",
+      "floor": "5층"
+    },
+    "hours": {
+      "weekdays": "11:00 AM - 9:00 PM",
+      "saturday": "11:00 AM - 5:00 PM",
+      "sunday": "휴무"
+    },
+    "walk_in_info": {
+      "weekdays": "영업 종료 1시간 전까지 도착",
+      "saturday": "종료 시간(5:00 PM)보다 최소 2시간 전인 3:00 PM까지 방문 필요"
+    },
+    "Time":{
+      "Time zone": "Asia/Seoul",
+      "Time format": "24-hour"
+    }
+  }
+}

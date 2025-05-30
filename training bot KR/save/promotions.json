@@ -1,0 +1,387 @@
+{
+  "may_promotions": [
+    {
+      "id": "promo_ulthera_1",
+      "name": "[5월한정] 울쎄라 프라임 V라인 솔루션",
+      "description": "울쎄라 프라임 100샷 + 프리미엄 아큐주사 10cc + 타이트닝 주사",
+      "price": 490000,
+      "discount": 48.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_ulthera_2",
+      "name": "[5월한정] 울X 13 패키지",
+      "description": "울쎄라 프라임 100샷 + 올리지오 X 300샷",
+      "price": 879000,
+      "discount": 46.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_ulthera_3",
+      "name": "[5월한정] 울X 33 패키지",
+      "description": "울쎄라 프라임 300샷 + 올리지오 X 300샷",
+      "price": 1500000,
+      "discount": 49.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_ulthera_4",
+      "name": "[5월한정] 울쎄라 프라임 풀페이스 패키지",
+      "description": "울쎄라 프라임 600샷 + 아이 울쎄라 프라임 100샷",
+      "price": 2390000,
+      "discount": 47.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_ulthera_5",
+      "name": "[5월한정] 울쎄라 프라임 400샷 패키지",
+      "description": "울쎄라 프라임 300샷 + 아이 울쎄라 프라임 100샷",
+      "price": 1490000,
+      "discount": 45.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_ulthera_thermage_1",
+      "name": "[5월한정] 울쎄라 프라임 300샷 + 써마지 300샷",
+      "description": "울쎄라 프라임 300샷 + 써마지 300샷 조합",
+      "price": 2090000,
+      "discount": 46.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_ulthera_thermage_2",
+      "name": "[5월한정] 울쎄라 프라임 300샷 + 써마지 600샷",
+      "description": "울쎄라 프라임 300샷 + 써마지 600샷 조합",
+      "price": 3000000,
+      "discount": 48.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_eye_ulthera_thermage",
+      "name": "[5월한정] 아이 울쎄라 프라임 100샷 + 아이 써마지 225샷",
+      "description": "아이 울쎄라 프라임 100샷 + 아이 써마지 225샷 조합",
+      "price": 1389000,
+      "discount": 49.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_ulthera_eye_thermage",
+      "name": "[5월한정] 울쎄라 프라임 300샷 + 아이 써마지 225샷",
+      "description": "울쎄라 프라임 300샷 + 아이 써마지 225샷 조합",
+      "price": 1991000,
+      "discount": 45.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_ulthera_eye_oligio",
+      "name": "[5월한정] 울쎄라 프라임 300샷 + 아이 올리지오X 300샷",
+      "description": "울쎄라 프라임 300샷 + 아이 올리지오X 300샷 조합",
+      "price": 1580000,
+      "discount": 47.0,
+      "vat_included": false,
+      "category": "울쎄라 관련 패키지"
+    },
+    {
+      "id": "promo_m1",
+      "name": "[5월한정] M1 패키지",
+      "description": "울쎄라 프라임 100샷 + 써마지 300샷 + EmFace",
+      "price": 2150000,
+      "discount": 48.0,
+      "vat_included": false,
+      "category": "M 시리즈 패키지"
+    },
+    {
+      "id": "promo_m3",
+      "name": "[5월한정] M3 패키지",
+      "description": "울쎄라 프라임 300샷 + 써마지 300샷 + EmFace",
+      "price": 2900000,
+      "discount": 49.0,
+      "vat_included": false,
+      "category": "M 시리즈 패키지"
+    },
+    {
+      "id": "promo_m6",
+      "name": "[5월한정] M6 패키지",
+      "description": "울쎄라 프라임 300샷 + 써마지 600샷 + EmFace",
+      "price": 3490000,
+      "discount": 46.0,
+      "vat_included": false,
+      "category": "M 시리즈 패키지"
+    },
+    {
+      "id": "promo_ulten_high",
+      "name": "[5월한정] 울텐 하이 패키지",
+      "description": "울쎄라 프라임 300샷 + 덴서티 (하이) 600샷",
+      "price": 2490000,
+      "discount": 45.0,
+      "vat_included": false,
+      "category": "울텐 시리즈 패키지"
+    },
+    {
+      "id": "promo_ulten_classic",
+      "name": "[5월한정] 울텐 클래식 패키지",
+      "description": "울쎄라 프라임 300샷 + 덴서티 (클래식) 600샷",
+      "price": 2100000,
+      "discount": 48.0,
+      "vat_included": false,
+      "category": "울텐 시리즈 패키지"
+    },
+    {
+      "id": "promo_thermage_full",
+      "name": "[5월한정] 써마지 얼굴 전체",
+      "description": "300샷 + 아이 225샷",
+      "price": 1780000,
+      "discount": 46.9,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_density_classic",
+      "name": "[5월한정] 덴시티 (클래식) 600샷",
+      "description": "덴시티 클래식 600샷",
+      "price": 970000,
+      "discount": 46.0,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_density_high",
+      "name": "[5월한정] 덴시티 (하이) 600샷",
+      "description": "덴시티 하이 600샷",
+      "price": 1390000,
+      "discount": 46.1,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_oligio_x",
+      "name": "[5월한정] 올리지오 X (300샷)",
+      "description": "올리지오 X 300샷",
+      "price": 439000,
+      "discount": 47.0,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_oligio_x_full",
+      "name": "[5월한정] 올리지오 X 풀페이스",
+      "description": "600샷 + 아이 300샷",
+      "price": 1110000,
+      "discount": 47.5,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_shurink_full_42",
+      "name": "[5월한정] 슈링크 풀페이스 42 패키지",
+      "description": "울트라-F 400샷 + 부스터 200샷 + 오로라 앰플",
+      "price": 219000,
+      "discount": 46.5,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_shurink_full_33",
+      "name": "[5월한정] 슈링크 풀페이스 33 패키지",
+      "description": "울트라-F 300샷 + 부스터 300샷 + 오로라 앰플",
+      "price": 210000,
+      "discount": 47.9,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_rejuran_combo",
+      "name": "[5월한정] 리쥬란 힐러 (2cc) + 리쥬란 아이 (1cc)",
+      "description": "리쥬란 힐러 2cc와 리쥬란 아이 1cc 조합",
+      "price": 269000,
+      "discount": 45.2,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_lizne_1cc",
+      "name": "[5월한정] 리즈네 1cc",
+      "description": "리즈네 1cc (50개 한정)",
+      "price": 59000,
+      "discount": 46.6,
+      "vat_included": false,
+      "category": "기타 패키지",
+      "limited": true,
+      "limited_quantity": 50
+    },
+    {
+      "id": "promo_lizne_2cc",
+      "name": "[5월한정] 리즈네 2cc",
+      "description": "리즈네 2cc",
+      "price": 149000,
+      "discount": 46.4,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_rejuran_healer",
+      "name": "[5월한정] 리쥬란 힐러 2cc",
+      "description": "리쥬란 힐러 2cc",
+      "price": 189000,
+      "discount": 47.0,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_vline_injection",
+      "name": "[5월한정] V라인 주사 패키지",
+      "description": "턱 보톡스 50u [이노톡스] + 프리미엄 아큐주사 6cc + 턱라인 타이트닝 주사",
+      "price": 69000,
+      "discount": 47.0,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_potenza_booster",
+      "name": "[5월한정] 포텐자 (펌핑팁) + 뮤즈 스킨부스터 (2cc)",
+      "description": "포텐자 (펌핑팁) + 뮤즈 스킨부스터 (2cc)",
+      "price": 169000,
+      "discount": 48.4,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_potenza_lizne",
+      "name": "[5월한정] 포텐자 + 리즈네 2cc + 시트 마스크",
+      "description": "포텐자 + 리즈네 2cc + 시트 마스크",
+      "price": 270000,
+      "discount": 46.3,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_potenza_exosome",
+      "name": "[5월한정] 포텐자 펌핑팁 + 엑소좀 ASCE 5cc + 시트 마스크",
+      "description": "포텐자 펌핑팁 + 엑소좀 ASCE 5cc + 시트 마스크",
+      "price": 319000,
+      "discount": 46.2,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_potenza_juvelook",
+      "name": "[5월한정] 포텐자 펌핑팁 + 쥬벨룩 4cc (1회) + 시트 마스크",
+      "description": "포텐자 펌핑팁 + 쥬벨룩 4cc (1회) + 시트 마스크",
+      "price": 379000,
+      "discount": 45.4,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_curejet_skinbooster",
+      "name": "[5월한정] 큐어젯 (뮤즈 스킨부스터)",
+      "description": "큐어젯 (뮤즈 스킨부스터)",
+      "price": 199000,
+      "discount": 49.0,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_curejet_dermotoxin",
+      "name": "[5월한정] 큐어젯 (더모톡신) + 주름 보톡스 (3부위)",
+      "description": "큐어젯 (더모톡신) + 주름 보톡스 (3부위)",
+      "price": 289000,
+      "discount": 46.4,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_curejet_fillmed",
+      "name": "[5월한정] 큐어젯 (필메드) + 피코 토닝 (플러스 또는 슈어) + 글루타치온 주사",
+      "description": "큐어젯 (필메드) + 피코 토닝 (플러스 또는 슈어) + 글루타치온 주사",
+      "price": 320000,
+      "discount": 46.4,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_curejet_pdrn",
+      "name": "[5월한정] 큐어젯 (PDRN) + 카프리 레이저 (압출 제외) + PDT (압출 제외)",
+      "description": "큐어젯 (PDRN) + 카프리 레이저 (압출 제외) + PDT (압출 제외)",
+      "price": 259000,
+      "discount": 46.8,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_acne_care",
+      "name": "[5월한정] 여드름 케어 패키지",
+      "description": "카프리 레이저 + 블랙필 + 크라이오",
+      "price": 109000,
+      "discount": 46.7,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_dewy_glow",
+      "name": "[5월한정] 듀이 글로우 패키지",
+      "description": "레디언스 필 + 모이스처 러빙 + 4분 크라이오 [알로에 젤 + 프로폴리스 앰플] + 허니 팩 + 모델링 팩",
+      "price": 99000,
+      "discount": 45.4,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_lha_la_peel",
+      "name": "[5월한정] LHA LA PEEL 스페셜 패키지",
+      "description": "LHA LA PEEL 파트 1 + 파트 2 + LED 10분 + 보습 + 모델링 팩",
+      "price": 59000,
+      "discount": 47.9,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_pumpkin_peel",
+      "name": "[5월한정] 펌킨 필",
+      "description": "펌킨 필",
+      "price": 67900,
+      "discount": 45.2,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_body_contouring",
+      "name": "[5월한정] 바디 컨투어링 패키지",
+      "description": "바디 인모드 FX - 2부위 + 울핏 600샷",
+      "price": 549000,
+      "discount": 48.4,
+      "vat_included": false,
+      "category": "기타 패키지"
+    },
+    {
+      "id": "promo_body_injection",
+      "name": "[5월한정] 바디 인젝션 패키지",
+      "description": "바디 보톡스 200U [이노톡스] + 걸그룹 200cc + 핑크팻 80cc",
+      "price": 289000,
+      "discount": 48.4,
+      "vat_included": false,
+      "category": "기타 패키지"
+    }
+  ],
+  "promotion_categories": [
+    "울쎄라 관련 패키지",
+    "M 시리즈 패키지",
+    "울텐 시리즈 패키지",
+    "기타 패키지"
+  ],
+  "promotion_info": {
+    "valid_until": "2023-05-31",
+    "vat_note": "모든 가격은 VAT 10% 별도입니다.",
+    "availability_note": "수량 한정 프로모션은 조기 종료될 수 있습니다.",
+    "condition_note": "프로모션 중복 적용 불가합니다."
+  }
+}

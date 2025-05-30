@@ -1,0 +1,1222 @@
+{
+  "services": [
+    {
+      "category": "TOXIN",
+      "subcategory": "Masseter (咀嚼肌)",
+      "items": [
+        {
+          "name": "Siax Masseter 50 units",
+          "price": 430,
+          "details": "用於咀嚼肌嘅肉毒桿菌素",
+          "performer": "doctor"
+        },
+        {
+          "name": "Allergan Botox Masseter 50 units",
+          "price": 1380,
+          "details": "用於咀嚼肌嘅肉毒桿菌素",
+          "performer": "doctor"
+        },
+        {
+          "name": "Dysport Masseter 150sU",
+          "price": 1180,
+          "details": "用於咀嚼肌嘅肉毒桿菌素",
+          "performer": "doctor"
+        },
+        {
+          "name": "Xeomin Masseter 50 units",
+          "price": 1080,
+          "details": "用於咀嚼肌嘅肉毒桿菌素",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "TOXIN",
+      "subcategory": "Anti-Wrinkle (抗皺)",
+      "items": [
+        {
+          "name": "Siax Anti-Wrinkle Botulinum Toxin 1區",
+          "price": 190,
+          "details": "12 units",
+          "performer": "doctor"
+        },
+        {
+          "name": "Allergan Anti-Wrinkle Botulinum 1區",
+          "price": 680,
+          "details": "12 units",
+          "performer": "doctor"
+        },
+        {
+          "name": "Dysport Anti-Wrinkle Botulinum 1區",
+          "price": 580,
+          "details": "12 units",
+          "performer": "doctor"
+        },
+        {
+          "name": "Xeomin Anti-Wrinkle Botulinum 1區",
+          "price": 580,
+          "details": "12 units",
+          "performer": "doctor"
+        },
+        {
+          "name": "Siax Anti-Wrinkle Botulinum Toxin 2區",
+          "price": 350,
+          "details": "20 units",
+          "performer": "doctor"
+        },
+        {
+          "name": "Allergan Botox Anti-Wrinkle Botulinum 2區",
+          "price": 900,
+          "details": "20 units, 需一次用完",
+          "performer": "doctor"
+        },
+        {
+          "name": "Siax Anti-Wrinkle Botulinum 3區",
+          "price": 520,
+          "details": "32 units, 需一次用完",
+          "performer": "doctor"
+        },
+        {
+          "name": "Allergan Botox Anti-Wrinkle Botulinum 3區",
+          "price": 1280,
+          "details": "32 units, 需一次用完",
+          "performer": "doctor"
+        },
+        {
+          "name": "Dysport Anti-Wrinkle Botulinum 3區",
+          "price": 1080,
+          "details": "32 units, 需一次用完",
+          "performer": "doctor"
+        },
+        {
+          "name": "Xeomin Anti-Wrinkle Botulinum 3區",
+          "price": 1180,
+          "details": "32 units, 需一次用完",
+          "performer": "doctor"
+        },
+        {
+          "name": "Siax Anti-Wrinkle Botulinum 4區",
+          "price": 660,
+          "details": "40 units, 需一次用完",
+          "performer": "doctor"
+        },
+        {
+          "name": "Allergan Botox Anti-Wrinkle Botulinum 4區",
+          "price": 1580,
+          "details": "40 units, 需一次用完",
+          "performer": "doctor"
+        },
+        {
+          "name": "Dysport Anti-Wrinkle Botulinum 4區",
+          "price": 1380,
+          "details": "40 units, 需一次用完",
+          "performer": "doctor"
+        },
+        {
+          "name": "Xeomin Anti-Wrinkle Botulinum 4區",
+          "price": 1480,
+          "details": "40 units, 需一次用完",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "TOXIN",
+      "subcategory": "Body Toxin (身體肉毒)",
+      "items": [
+        {
+          "name": "Siax Body Botulinum 100 units",
+          "price": 1000,
+          "details": "肩膊/小腿",
+          "performer": "doctor"
+        },
+        {
+          "name": "Botox Body Botulinum 100 units",
+          "price": 2580,
+          "details": "肩膊/小腿",
+          "performer": "doctor"
+        },
+        {
+          "name": "Dysport Body Botulinum 250sU",
+          "price": 1980,
+          "details": "肩膊/小腿",
+          "performer": "doctor"
+        },
+        {
+          "name": "Xeomin Body Botulinum 100units",
+          "price": 2080,
+          "details": "肩膊/小腿",
+          "performer": "doctor"
+        },
+        {
+          "name": "Siax Body Botulinum 200 units",
+          "price": 1900,
+          "details": "肩膊/小腿",
+          "performer": "doctor"
+        },
+        {
+          "name": "Dysport Body Botulinum 500sU",
+          "price": 3780,
+          "details": "肩膊/小腿",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "TOXIN",
+      "subcategory": "Underarm Hyperhidrosis (腋下多汗症)",
+      "items": [
+        {
+          "name": "Siax Body Botulinum 100 units",
+          "price": 1480,
+          "details": "腋下多汗症",
+          "performer": "doctor"
+        },
+        {
+          "name": "Botox Body Botulinum 100 units",
+          "price": 2600,
+          "details": "腋下多汗症",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "TOXIN",
+      "subcategory": "V Tightening (V臉緊緻)",
+      "items": [
+        {
+          "name": "Siax Tightening",
+          "price": 300,
+          "details": "8 units",
+          "performer": "doctor"
+        },
+        {
+          "name": "Allergan Botox V-Tightening",
+          "price": 620,
+          "details": "",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "TOXIN",
+      "subcategory": "Dermotoxin (皮膚彈性)",
+      "items": [
+        {
+          "name": "Siax Dermotoxin",
+          "price": 780,
+          "details": "20 units, 包括麻醉膏",
+          "performer": "doctor"
+        },
+        {
+          "name": "Allergan Botox Dermotoxin",
+          "price": 1080,
+          "details": "包括麻醉膏",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "TOXIN",
+      "subcategory": "Contour (輪廓注射)",
+      "items": [
+        {
+          "name": "Contour Injection (1區：面/雙下巴)",
+          "price": 300,
+          "details": "Skin&Beam自行研發嘅產品",
+          "performer": "doctor"
+        },
+        {
+          "name": "Contour Injection (面/雙下巴) 3療程",
+          "price": 800,
+          "details": "Skin&Beam自行研發嘅產品",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "膠原蛋白刺激注射",
+      "subcategory": "PLLA / PLA",
+      "items": [
+        {
+          "name": "Juvelook® collagen booster 1支",
+          "price": 3380,
+          "details": "包括麻醉膏",
+          "performer": "doctor"
+        },
+        {
+          "name": "Derma Veil® 1支",
+          "price": 2980,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Sculptra® 1支",
+          "price": 3280,
+          "details": "太陽穴/顴骨/法令紋",
+          "performer": "doctor"
+        },
+        {
+          "name": "Sculptra® 3支",
+          "price": 9580,
+          "details": "太陽穴/顴骨/法令紋",
+          "performer": "doctor"
+        },
+        {
+          "name": "Aesthefill® 1支",
+          "price": 4450,
+          "details": "",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "Skin Booster",
+      "subcategory": "",
+      "items": [
+        {
+          "name": "TEOSYAL® Redensity I Hyaluronic Acid 1ml",
+          "price": 1680,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Derma Shine Swiss Neauvia Hydro Deluxe",
+          "price": 1080,
+          "details": "包括麻醉膏",
+          "performer": "doctor"
+        },
+        {
+          "name": "Derma Shine® Filorga",
+          "price": 1680,
+          "details": "包括麻醉膏",
+          "performer": "doctor"
+        },
+        {
+          "name": "Derma Shine® Sweden Cliniccare EGF Refresh",
+          "price": 1150,
+          "details": "包括麻醉膏",
+          "performer": "doctor"
+        },
+        {
+          "name": "ASCE+ Exosome (SRLV) 5ml",
+          "price": 2100,
+          "details": "包括麻醉膏",
+          "performer": "doctor"
+        },
+        {
+          "name": "Profhilo® 2ml",
+          "price": 3080,
+          "details": "面部/頸部",
+          "performer": "doctor"
+        },
+        {
+          "name": "Prostrolane Blanc B 2ml",
+          "price": 2280,
+          "details": "",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "Saxenda",
+      "subcategory": "減肥",
+      "items": [
+        {
+          "name": "Saxenda 1支",
+          "price": 2000,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Saxenda 3支",
+          "price": 5000,
+          "details": "1盒",
+          "performer": "doctor"
+        },
+        {
+          "name": "Saxenda 6支",
+          "price": 9370,
+          "details": "2盒",
+          "performer": "doctor"
+        },
+        {
+          "name": "Saxenda 12支",
+          "price": 18020,
+          "details": "4盒一個療程",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "Belkyra",
+      "subcategory": "雙下巴注射",
+      "items": [
+        {
+          "name": "belkyra 2ml",
+          "price": 3800,
+          "details": "包括2% xylocaine",
+          "performer": "doctor"
+        },
+        {
+          "name": "belkyra 4ml",
+          "price": 5800,
+          "details": "包括2% xylocaine",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "Rejuran",
+      "subcategory": "",
+      "items": [
+        {
+          "name": "Rejuran 2ml",
+          "price": 1980,
+          "details": "只由醫生進行",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "Thread Lifting",
+      "subcategory": "埋線提升",
+      "items": [
+        {
+          "name": "thread lifting mid face (nfix 4+ sprial 4)",
+          "price": 5880,
+          "details": "包括2% xylocaine",
+          "performer": "doctor"
+        },
+        {
+          "name": "thread lifting mid face(royal 6)",
+          "price": 5300,
+          "details": "包括2% xylocaine",
+          "performer": "doctor"
+        },
+        {
+          "name": "thread lifting double chin (royal 6)",
+          "price": 3800,
+          "details": "包括2% xylocaine",
+          "performer": "doctor"
+        },
+        {
+          "name": "thread lifting double chin(sprial 6)",
+          "price": 3200,
+          "details": "包括2% xylocaine",
+          "performer": "doctor"
+        },
+        {
+          "name": "thread lifting double chin(n fix 6)",
+          "price": 3900,
+          "details": "包括2% xylocaine",
+          "performer": "doctor"
+        }
+      ]
+    },
+    {
+      "category": "Secret Laser",
+      "subcategory": "",
+      "items": [
+        {
+          "name": "Secret Laser + EGF Ampoule",
+          "price": 1380,
+          "details": "包括一次性微針頭",
+          "performer": "doctor"
+        },
+        {
+          "name": "Secret Laser + Hydra Regeneration",
+          "price": 880,
+          "details": "包括針頭, 麻醉",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "POTENZA",
+      "subcategory": "最新套餐 (2025年4月推出)",
+      "items": [
+        {
+          "name": "POTENZA + Rejuran 2ml",
+          "price": 3480,
+          "details": "有效期365日",
+          "performer": "technician"
+        },
+        {
+          "name": "POTENZA + Juvelook 4cc",
+          "price": 3380,
+          "details": "有效期365日",
+          "performer": "technician"
+        },
+        {
+          "name": "POTENZA + ASCE Exosome 5cc",
+          "price": 3280,
+          "details": "有效期365日",
+          "performer": "technician"
+        },
+        {
+          "name": "POTENZA + Filorga 3cc",
+          "price": 3080,
+          "details": "有效期365日",
+          "performer": "technician"
+        },
+        {
+          "name": "POTENZA + Cliniccare EGF 4cc",
+          "price": 2780,
+          "details": "有效期365日",
+          "performer": "technician"
+        },
+        {
+          "name": "POTENZA + HA (Baby Skin Booster)",
+          "price": 2580,
+          "details": "有效期365日",
+          "performer": "technician"
+        },
+        {
+          "name": "POTENZA + Hydra Regeneration",
+          "price": 1980,
+          "details": "有效期365日, 減35%",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Ultherapy",
+      "subcategory": "",
+      "items": [
+        {
+          "name": "Ultherapy [首次 - 醫生] 100發",
+          "price": 1688,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Ultherapy [醫生] 100發",
+          "price": 3000,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Ultherapy [醫生] 300發",
+          "price": 6800,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Ultherapy [醫生] 400發",
+          "price": 8880,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Ultherapy [醫生] 600發",
+          "price": 10800,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Ultherapy [醫生] 700發",
+          "price": 13600,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Ultherapy [首次 - 技術員] 100發",
+          "price": 1080,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Ultherapy [技術員] 100發",
+          "price": 1100,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Ultherapy [技術員] 300發",
+          "price": 3100,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Thermage",
+      "subcategory": "",
+      "items": [
+        {
+          "name": "Thermage [醫生] 眼部 450發",
+          "price": 7800,
+          "details": "不包括眼皮",
+          "performer": "doctor"
+        },
+        {
+          "name": "Thermage [醫生] 面部 600發",
+          "price": 12800,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Thermage [醫生] 面部 + 頸部 900發",
+          "price": 15800,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Thermage [醫生] 面部 + 頸部 + 眼部 1350發",
+          "price": 21800,
+          "details": "",
+          "performer": "doctor"
+        },
+        {
+          "name": "Thermage [技術員] 面部 600發",
+          "price": 6480,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "Shurink HIFU",
+      "items": [
+        {
+          "name": "SHURINK™ HIFU 面部 100發",
+          "price": 320,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "SHURINK™ HIFU 面部 300發",
+          "price": 580,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "SHURINK™ HIFU 面部 300發 + SHURINK™ HIFU 眼部 100發",
+          "price": 780,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "V-Shurink HIFU 雙下巴 100發",
+          "price": 440,
+          "details": "※黃色探頭 6.0mm",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "Shurink Universe",
+      "items": [
+        {
+          "name": "【Shurink Universe】Ultra F 100發",
+          "price": 400,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "【Shurink Universe】Ultra Booster 100發",
+          "price": 400,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "【Shurink Universe】Ultra F 300發",
+          "price": 690,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "【Shurink Universe】Ultra F 300發 + Ultra Booster 100發",
+          "price": 850,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "【MK/CWB】INMODE",
+      "items": [
+        {
+          "name": "INMODE Lifting FX 雙下巴+下臉+下顎線 1療程",
+          "price": 1180,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "INMODE Lifting FX 1區 (雙下巴/下臉/下顎線) 1療程",
+          "price": 580,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "INMODE Lifting FORMA 1療程",
+          "price": 550,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "Ecolift New",
+      "items": [
+        {
+          "name": "EcoLift HIFU 100發 (Line)",
+          "price": 250,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "EcoLift HIFU 300發 (Line)",
+          "price": 480,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "EcoLift HIFU 1000發 (Pen)",
+          "price": 220,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "EcoLift HIFU 2000發 (Pen)",
+          "price": 320,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "EcoLift HIFU 3000發 (Pen)",
+          "price": 420,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "EcoLift HIFU 300發 (Line) + 1000發 (Pen)",
+          "price": 640,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "EcoLift HIFU 300發 (Line) + 3000發 (Pen)",
+          "price": 830,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "Ulfit",
+      "items": [
+        {
+          "name": "Ulfit™ 800發 腹部 1療程",
+          "price": 680,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Ulfit™ 800發 腹部 5療程",
+          "price": 2780,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "EZ LIFT HIFU",
+      "items": [
+        {
+          "name": "EZ Lift HIFU 1000發 (Pen)",
+          "price": 290,
+          "details": "優惠價: $250",
+          "performer": "technician"
+        },
+        {
+          "name": "EZ Lift HIFU 300發 (Line)",
+          "price": 380,
+          "details": "優惠價: $320",
+          "performer": "technician"
+        },
+        {
+          "name": "EZ Lift HIFU 300發 (Line) + 1000發 (Pen)",
+          "price": 580,
+          "details": "優惠價: $520",
+          "performer": "technician"
+        },
+        {
+          "name": "EZ Lift Body 400發",
+          "price": 450,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "EZ Lift Body 600發",
+          "price": 520,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "EZ Lift Body 800發",
+          "price": 600,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "其他Lifting & Firming療程",
+      "items": [
+        {
+          "name": "Plasonic Plasma Care",
+          "price": 300,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Hybrid Pico Jet",
+          "price": 300,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "LDM® Ultrasound Care",
+          "price": 280,
+          "details": "基本模式 / 暗瘡模式 / 提升模式",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "Duet RF",
+      "items": [
+        {
+          "name": "Duet RF™ 頸部 100發",
+          "price": 280,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Duet RF™ 面部 100發",
+          "price": 220,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Duet RF™ 面部 200發",
+          "price": 380,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Duet RF™ 面部 300發",
+          "price": 440,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Duet RF™ 面部 300發 + 頸部 100發",
+          "price": 620,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Duet RF™ Collagen Boost 眼部",
+          "price": 260,
+          "details": "6分鐘",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "Liftera A",
+      "items": [
+        {
+          "name": "Liftera A Lifting 眼部 (Pen) 1000發",
+          "price": 280,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Liftera A Lifting 面部 (Pen) 2000發",
+          "price": 380,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Liftera A Lifting 面部 (Pen) 3000發",
+          "price": 480,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Liftera A Lifting 面部 (Pen) 4000發",
+          "price": 580,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Liftera A Lifting 面部 (Line) 300發",
+          "price": 680,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "Flawless",
+      "items": [
+        {
+          "name": "Flawless Rolling HIFU Care 面部 3000發",
+          "price": 460,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Flawless Rolling HIFU Care 身體 4000發",
+          "price": 680,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "其他提升療程",
+      "items": [
+        {
+          "name": "Bellasonic 2X - Dual Dynamic Massage",
+          "price": 350,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "V-line Magic Therapy",
+          "price": 380,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Gold Therapy",
+          "price": 480,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Lifting & Firming",
+      "subcategory": "Exilis Ultra 360™",
+      "items": [
+        {
+          "name": "Exilis Ultra 360™ Age-reverse Eye Collagen XP",
+          "price": 440,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Exilis Ultra 360™ Body",
+          "price": 440,
+          "details": "10分鐘",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "Body Contouring",
+      "subcategory": "身體塑形",
+      "items": [
+        {
+          "name": "Emtone",
+          "price": 1380,
+          "details": "18分鐘",
+          "performer": "technician"
+        },
+        {
+          "name": "EMSCULPT™ Body Shaping",
+          "price": 1200,
+          "details": "腹部/臀部/大腿",
+          "performer": "technician"
+        },
+        {
+          "name": "MICOOL Ice Cool 2 pads",
+          "price": 580,
+          "details": "手臂/腹部/大腿",
+          "performer": "technician"
+        },
+        {
+          "name": "EMSELLA™ Chair",
+          "price": 300,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "皮膚護理療程",
+      "subcategory": "",
+      "items": [
+        {
+          "name": "Aqua peel",
+          "price": 220,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Hydro peel",
+          "price": 280,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Zero peel+ep",
+          "price": 480,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Zero peel +ep+ lifting",
+          "price": 680,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Ionto",
+          "price": 180,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Rose milk peel",
+          "price": 288,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "O2derm",
+          "price": 220,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Lala Peel",
+          "price": 320,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "療程後護理",
+      "subcategory": "",
+      "items": [
+        {
+          "name": "Omega LED Light + Hydra Regeneration",
+          "price": 110,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "美白 / 毛孔 / 暗瘡",
+      "subcategory": "激光",
+      "items": [
+        {
+          "name": "Spectra Peel",
+          "price": 400,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "CAPRI Acne Laser (面部)",
+          "price": 300,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "CAPRI Acne Laser (背部)",
+          "price": 350,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Toning Laser",
+          "price": 300,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Toning Laser 5療程",
+          "price": 1400,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Picoplus 1064nm Toning Laser",
+          "price": 190,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Picoplus 1064nm Toning Laser 5療程",
+          "price": 900,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "PicoSure Toning Laser 755nm",
+          "price": 190,
+          "details": "只喺TST分店有",
+          "performer": "technician"
+        },
+        {
+          "name": "PicoSure Toning Laser 755nm 5療程",
+          "price": 900,
+          "details": "只喺TST分店有",
+          "performer": "technician"
+        },
+        {
+          "name": "PicoPlus Fraxel",
+          "price": 300,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Fractional laser",
+          "price": 500,
+          "details": "包括麻醉",
+          "performer": "technician"
+        },
+        {
+          "name": "Lasemd",
+          "price": 400,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Pico sure fraxel",
+          "price": 580,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Body Toning laser (腋下) 2療程",
+          "price": 350,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Body Toning Laser (小腿) 3療程",
+          "price": 550,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "Body Toning Laser (手臂) 3療程",
+          "price": 900,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "cc laser",
+          "price": 400,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    },
+    {
+      "category": "美白 / 毛孔 / 暗瘡",
+      "subcategory": "脫毛",
+      "items": [
+        {
+          "name": "腋下脫毛 3療程 (S)",
+          "price": 250,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "小腿脫毛 3療程 (M)",
+          "price": 500,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "大面積脫毛 3療程 (L)",
+          "price": 800,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "脫毛 (S) x 5療程",
+          "price": 400,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "脫毛 (M) x 5療程",
+          "price": 900,
+          "details": "",
+          "performer": "technician"
+        },
+        {
+          "name": "脫毛 (L) x 5療程",
+          "price": 1500,
+          "details": "",
+          "performer": "technician"
+        }
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "name": "銅鑼灣 (CWB)",
+      "address": "香港銅鑼灣羅素街8號英皇鐘錶珠寶中心17-18樓, 銅鑼灣地鐵站A出口",
+      "phone": "(852) 2813 2213"
+    },
+    {
+      "name": "尖沙咀 (TST)",
+      "address": "香港九龍尖沙咀彌敦道74-78號文遜大廈5樓",
+      "phone": "(852) 2576 0188"
+    },
+    {
+      "name": "旺角 (MK)",
+      "address": "香港彌敦道700號T.O.P 6樓",
+      "phone": "(852) 3643 0289"
+    }
+  ],
+  "contact_info": {
+    "email": "welcome@skinbeam.hk",
+    "website": "skinbeam.hk/en",
+    "hours": {
+      "weekends_holidays": "10:00 - 20:00",
+      "weekdays": "11:00 - 21:00"
+    }
+  },
+  "payment_methods": {
+    "online": [
+      "信用卡",
+      "Apple Pay",
+      "Payme (畀冇信用卡嘅客人用)",
+      "FPS (轉數快)"
+    ],
+    "clinic": [
+      "信用卡",
+      "Apple Pay",
+      "Payme",
+      "FPS (轉數快)",
+      "支付寶",
+      "微信支付",
+      "現金"
+    ]
+  }
+}

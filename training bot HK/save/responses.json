@@ -1,0 +1,356 @@
+{
+  "responses": [
+    {
+      "intent": "greeting",
+      "response_id": "greeting_response",
+      "text": "你好！歡迎嚟到Skin&Beam HK。我可以點樣幫到你呢？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "哈囉！好高興見到你喺Skin&Beam HK。我可以點樣幫到你？祝你健康，Skin&Beam, HK",
+        "你好！多謝你聯絡Skin&Beam HK。我哋可以點樣幫到你？祝你健康，Skin&Beam, HK",
+        "Hi！歡迎嚟到Skin&Beam HK。我哋點樣可以協助你？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "ask_name",
+      "response_id": "ask_name_response",
+      "text": "請問你叫咩名，方便我哋稱呼你。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "可唔可以話俾我知你叫咩名，方便我哋稱呼你？祝你健康，Skin&Beam, HK",
+        "為咗方便稱呼，請問你叫咩名？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "confirm_name",
+      "response_id": "confirm_name_response",
+      "text": "多謝{{customer_name}}！好高興今日能為你服務。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "多謝{{customer_name}}！好榮幸能夠幫到你。祝你健康，Skin&Beam, HK",
+        "你好{{customer_name}}！我哋好高興能夠為你服務。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "book_appointment",
+      "response_id": "book_appointment_options",
+      "text": "你可以透過我哋嘅網站(skinbeam.hk/en)預約，或者直接同我哋預約。你想喺邊間分店預約？(CWB/TST/MK) 祝你健康，Skin&Beam, HK",
+      "variations": [
+        "你可以透過網站skinbeam.hk/en網上預約，或者我哋可以而家幫你預約。你想喺邊間分店預約？(CWB/TST/MK) 祝你健康，Skin&Beam, HK",
+        "我哋可以而家幫你預約。你想去邊間分店？(CWB - 銅鑼灣 / TST - 尖沙咀 / MK - 旺角) 祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "select_branch",
+      "response_id": "confirm_branch",
+      "text": "你選擇咗{{selected_branch}}分店。請問你想邊一日嚟？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "多謝你選擇{{selected_branch}}分店。你想預約邊一日？祝你健康，Skin&Beam, HK",
+        "{{selected_branch}}分店已準備好為你服務。請問你想邊一日嚟？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "select_date",
+      "response_id": "confirm_date",
+      "text": "你選擇咗{{appointment_date}}。請問你想幾點嚟？我哋嘅營業時間係：平日11:00至21:00，週末同假日10:00至20:00。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "{{appointment_date}}已選定。你想幾點嚟？營業時間：平日(11:00至21:00)，週末同假日(10:00至20:00)。祝你健康，Skin&Beam, HK",
+        "我哋已記低{{appointment_date}}。你想約幾點？我哋嘅營業時間：平日(11:00至21:00)，週末同假日(10:00至20:00)。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "select_time",
+      "response_id": "confirm_time",
+      "text": "你選擇咗{{appointment_date}}嘅{{appointment_time}}。請確認你喺{{selected_branch}}分店嘅預約。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "{{appointment_date}}{{appointment_time}}喺{{selected_branch}}分店嘅時間已選定。請確認你嘅預約。祝你健康，Skin&Beam, HK",
+        "我哋已記低：{{appointment_time}} | {{appointment_date}} | {{selected_branch}}分店。請確認呢個預約。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "confirm_appointment",
+      "response_id": "appointment_confirmed",
+      "text": "你嘅預約已確認：{{appointment_date}}{{appointment_time}}喺{{selected_branch}}分店。請提早10-15分鐘到達以完成登記手續。你可以隨時更改或取消預約。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "預約確認：{{appointment_time}} | {{appointment_date}} | {{selected_branch}}分店。請提早10-15分鐘到達。你可以隨時更改或取消預約。祝你健康，Skin&Beam, HK",
+        "你嘅預約已成功登記：{{appointment_date}}{{appointment_time}}喺{{selected_branch}}分店。建議你提早10-15分鐘到達。如有需要，你可以更改或取消預約。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "ask_about_service",
+      "response_id": "service_categories",
+      "text": "Skin&Beam HK提供多種服務，包括：TOXIN (肉毒桿菌素)、膠原蛋白刺激注射、Skin Booster、Rejuran、Thread Lifting (埋線提升)、Secret Laser、POTENZA、Ultherapy、Thermage、Lifting & Firming (提升緊緻)、Body Contouring (身體塑形)、同埋美白/毛孔/暗瘡療程。你想了解邊種服務？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋有多種服務包括：TOXIN (肉毒桿菌素)、膠原蛋白刺激注射、Skin Booster、Rejuran、Thread Lifting (埋線提升)、Secret Laser、POTENZA、Ultherapy、Thermage、Lifting & Firming (提升緊緻)、Body Contouring (身體塑形)、同埋美白/毛孔/暗瘡療程。你想了解邊種服務？祝你健康，Skin&Beam, HK",
+        "我哋嘅服務包括：TOXIN (肉毒桿菌素)、膠原蛋白刺激注射、Skin Booster、Rejuran、Thread Lifting (埋線提升)、Secret Laser、POTENZA、Ultherapy、Thermage、Lifting & Firming (提升緊緻)、Body Contouring (身體塑形)、同埋美白/毛孔/暗瘡療程。你想了解邊個服務？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "select_service_category",
+      "response_id": "show_services_in_category",
+      "text": "以下係{{service_category}}類別嘅服務：\n{{service_list}}。你想知道邊個服務嘅詳情？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "喺{{service_category}}類別，我哋有：\n{{service_list}}。你想了解邊個具體服務？祝你健康，Skin&Beam, HK",
+        "{{service_category}}類別嘅服務包括：\n{{service_list}}。你想知道邊個服務嘅詳細資料？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "ask_service_details",
+      "response_id": "service_details",
+      "text": "{{selected_service}}嘅價格係{{service_price}}。{{service_description}}。呢個服務由{{service_performer}}進行。{{additional_info}}。你想預約呢個服務嗎？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "關於{{selected_service}}：價格：{{service_price}} | {{service_description}} | 由{{service_performer}}進行。{{additional_info}}。你想預約嗎？祝你健康，Skin&Beam, HK",
+        "{{selected_service}}嘅資料：價格{{service_price}}。{{service_description}}。由{{service_performer}}進行服務。{{additional_info}}。你有興趣預約嗎？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "ask_branch_info",
+      "response_id": "list_branches",
+      "text": "Skin&Beam HK有3間分店：1. 銅鑼灣分店(CWB)，2. 尖沙咀分店(TST)，3. 旺角分店(MK)。你想知道邊間分店嘅詳細資料？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋喺香港有3間分店：銅鑼灣(CWB)、尖沙咀(TST)同旺角(MK)。你想知道邊間分店嘅資料？祝你健康，Skin&Beam, HK",
+        "Skin&Beam HK喺3個地點：CWB(銅鑼灣)、TST(尖沙咀)同MK(旺角)。你需要邊間分店嘅具體資料？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "select_branch_info",
+      "response_id": "branch_details",
+      "text": "{{branch_for_info}}分店：{{branch_address}}。電話：{{branch_phone}}。營業時間：平日：11:00至21:00，週末同假日：10:00至20:00。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "{{branch_for_info}}分店資料：地址：{{branch_address}} | 電話：{{branch_phone}} | 營業時間：平日(11:00至21:00)，週末同假日(10:00至20:00)。祝你健康，Skin&Beam, HK",
+        "{{branch_for_info}}分店詳情：{{branch_address}}。聯絡電話：{{branch_phone}}。營業時間：平日11:00至21:00，週末同假日10:00至20:00。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "ask_payment_methods",
+      "response_id": "payment_options",
+      "text": "我哋接受多種付款方式。你想知道網上付款定喺診所付款嘅方法？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "Skin&Beam HK支援多種付款方式。你想了解網上付款定喺診所付款嘅方法？祝你健康，Skin&Beam, HK",
+        "我哋有多種付款選擇。你需要知道網上付款定喺診所付款嘅資料？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "select_payment_type",
+      "response_id": "payment_type_details",
+      "text": "{{payment_details}}。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "{{payment_details}}。如果你有任何疑問，請俾我哋知。祝你健康，Skin&Beam, HK",
+        "{{payment_details}}。仲有其他可以幫到你嘅嘢嗎？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "pregnant_customer",
+      "response_id": "pregnant_customer_info",
+      "text": "對於懷孕嘅客人，基於安全考慮，我哋唔建議做大部分美容療程或專業皮膚護理。懷孕期間唔會計入服務嘅有效期，你可以喺產後使用服務。喺呢段時間，我哋建議保持基本同溫和嘅皮膚護理。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "為咗安全起見，我哋唔建議懷孕客人做大部分美容療程。懷孕期間唔會計入服務有效期，你可以喺產後使用。建議喺呢段時間保持簡單嘅皮膚護理。祝你健康，Skin&Beam, HK",
+        "喺懷孕期間，為咗媽媽同寶寶嘅安全，我哋唔建議進行深層美容療程。服務有效期會喺產後延長。請喺呢段時間保持溫和嘅皮膚護理。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "isotretinoin_user",
+      "response_id": "isotretinoin_user_info",
+      "text": "喺Skin&Beam HK，冇任何療程特別禁止用於正在服用isotretinoin嘅客人。不過，根據一般醫療指引，應該小心以下療程：激光(可能增加皮膚敏感度)、強力去角質(皮膚受損風險)、同埋皮膚再生療程(可能延緩恢復過程)。我哋建議喺免費咨詢期間告知你正在使用嘅藥物。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "Skin&Beam HK冇任何療程完全禁止用於服用isotretinoin嘅客人，但應該注意：激光(皮膚會更敏感)、強力去角質(受損風險)、同皮膚再生療程(延緩恢復)。請喺咨詢時告知你正在使用嘅藥物。祝你健康，Skin&Beam, HK",
+        "用緊isotretinoin時，Skin&Beam HK冇絕對禁止嘅療程，但要注意激光、去角質同皮膚再生療程，因為皮膚可能更敏感，恢復較慢。請喺免費咨詢時分享你嘅用藥資訊。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "high_risk_customer",
+      "response_id": "high_risk_customer_info",
+      "text": "對於高風險客人，基於感染風險，我哋唔建議進行療程。呢包括有高風險心臟病嘅病人(人工心瓣膜、感染性心內膜炎病史、某些先天性心臟缺陷、有心臟瓣膜病嘅心臟移植病人)同免疫系統受損嘅病人(正在化療特別係有中性粒細胞減少、HIV陽性特別係CD4數量低)。請喺進行任何美容療程前諮詢你嘅醫生。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋唔建議高感染風險嘅客人做療程，包括：有嚴重心臟病嘅人(人工心瓣膜、心內膜炎史、先天性心臟缺陷、有瓣膜病嘅心臟移植)同免疫系統受損嘅人(化療中、低CD4嘅HIV陽性)。請先諮詢你嘅醫生。祝你健康，Skin&Beam, HK",
+        "為咗安全起見，我哋唔建議高感染風險嘅人進行療程，包括：嚴重心血管病人(人工心瓣膜、心內膜炎史)同免疫系統受損者(化療中、CD4低嘅HIV患者)。請喺進行療程前諮詢專科醫生。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "complaint",
+      "response_id": "handle_complaint",
+      "text": "我哋好遺憾聽到你嘅不愉快經歷。請分享更多關於你遇到嘅問題，讓我哋能夠更好地幫助你。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "對於你未如理想嘅體驗，我哋深感抱歉。你可以提供更多關於問題嘅細節，讓我哋能夠找到合適嘅解決方案嗎？祝你健康，Skin&Beam, HK",
+        "我哋對你嘅不愉快經歷感到遺憾。為咗能夠有效地幫助你，請詳細分享你遇到嘅問題。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "request_refund",
+      "response_id": "refund_policy",
+      "text": "基本上，Skin&Beam HK冇退款政策(服務有效期為365日)。不過，我哋喺特殊情況下提供替代方案，例如：轉讓畀朋友或家人、轉做其他服務，或者延長有效期。請聯絡我哋，我哋會就你嘅具體情況提供協助。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "Skin&Beam HK唔設退款政策(服務有效期365日)。不過，我哋可以透過以下方式幫助你：轉讓畀他人、轉做其他服務，或者延長時限。請聯絡我哋獲取具體建議。祝你健康，Skin&Beam, HK",
+        "我哋冇退款政策(服務有效期365日)。喺特殊情況下，你可以：轉讓服務畀他人、轉做其他服務，或者申請延期。請聯絡我哋獲取最佳協助。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "alternative_solutions",
+      "response_id": "offer_alternatives",
+      "text": "對於唔能使用服務嘅情況，我哋提供以下替代方案：1. 轉讓服務畀朋友或家人，2. 轉做更適合你需求嘅其他服務，3. 延長服務嘅有效期。呢幾個方案你最感興趣邊一個？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "如果你唔能夠使用服務，我哋有以下選擇：轉讓畀他人、轉做其他服務，或者延長使用期限。你想知道邊個方案嘅更多資訊？祝你健康，Skin&Beam, HK",
+        "我哋明白你嘅計劃可能會有變化。除咗取消，你可以：轉讓服務畀他人、轉做更適合嘅服務，或者申請延期。邊個方案最適合你？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "ask_performer",
+      "response_id": "treatment_performer_info",
+      "text": "喺Skin&Beam HK，所有注射類療程都由醫生進行。某些特定服務如手部Rejuran注射同Derma Shine只能由醫生進行。Secret Laser有醫生版同技術員版。所有POTENZA療程都由技術員進行。你需要了解邊個具體服務嘅資訊？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "關於療程執行者，所有注射類療程都由醫生進行。手部Rejuran同Derma Shine只由醫生進行。Secret Laser有兩個版本(醫生/技術員)。POTENZA同相關套餐一律由技術員進行。你想問邊個具體療程？祝你健康，Skin&Beam, HK",
+        "喺我哋診所：所有注射服務由醫生進行；手部Rejuran同Derma Shine只由醫生進行；Secret Laser有兩個選擇(醫生或技術員)；POTENZA同相關套餐只由技術員進行。你需要邊個服務嘅資訊？祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "ask_about_doctor",
+      "response_id": "doctor_treatments",
+      "text": "醫生進行嘅療程包括：所有注射服務(肉毒桿菌素、填充劑、Rejuran、Skin Booster)、Derma Shine、Secret Laser + EGF Ampoule($1,380)、Thermage、同Ultherapy。由醫生進行可以確保入侵性療程有更高嘅安全性同效果。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "Skin&Beam HK嘅醫生進行以下療程：所有注射(肉毒桿菌素、填充劑、Skin Booster、Rejuran)、Derma Shine、Secret Laser + EGF Ampoule、Thermage同Ultherapy。入侵性療程由醫生進行可確保最高安全性。祝你健康，Skin&Beam, HK",
+        "喺診所，醫生進行：所有注射療程(包括肉毒桿菌素、填充劑、Rejuran)、Derma Shine、高級Secret Laser(配EGF Ampoule)、Thermage同Ultherapy。咁樣可以確保需要高精確度嘅療程有最佳效果。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "ask_about_technician",
+      "response_id": "technician_treatments",
+      "text": "我哋嘅技術員進行非入侵性或低入侵性療程，包括：所有POTENZA療程、Secret Laser + Hydra Regeneration($880)、Thermage、Ultherapy、各種Lifting & Firming(HIFU、RF等)、Body Contouring、同激光療程。技術員接受專業培訓以確保療程效果同安全。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "Skin&Beam HK嘅技術員負責：所有POTENZA套餐、基本Secret Laser(配Hydra Regeneration)、Thermage、Ultherapy、各種Lifting & Firming(HIFU、EcoLift等)、Body Contouring同激光療程。佢哋都接受咗全面培訓嚟進行非入侵性或低入侵性療程。祝你健康，Skin&Beam, HK",
+        "我哋嘅技術員團隊進行以下療程：POTENZA、標準Secret Laser、Thermage、Ultherapy、緊緻提升療程、身體塑形、同激光療程。所有技術員都接受咗深入培訓以確保服務質素。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "aftercare_info",
+      "response_id": "general_aftercare",
+      "text": "Skin&Beam HK療程後注意事項：1. 多飲水，2. 充足休息，3. 避免飲酒，4. 防曬。大部分療程都有最短嘅恢復期，通常係2-3日。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "喺Skin&Beam HK做完療程後，請注意：多飲水、確保充足睡眠、避免飲酒、防曬。大部分療程嘅恢復期只需2-3日。祝你健康，Skin&Beam, HK",
+        "要達到最佳療程效果，請：保持身體水分充足、充分休息、避免含酒精飲品、使用防曬。大多數療程嘅恢復期只係2-3日。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "specific_treatment_aftercare",
+      "response_id": "specific_aftercare",
+      "text": "對於{{treatment_name}}，除咗一般注意事項(多飲水、充足休息、避免飲酒、防曬)外，你仲需要{{specific_aftercare_info}}。恢復期通常係{{recovery_time}}。如果你發現任何異常反應，請立即聯絡我哋。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "{{treatment_name}}療程後注意事項：除咗多飲水、充足休息、避免飲酒同防曬外，你需要{{specific_aftercare_info}}。恢復期：{{recovery_time}}。如有任何異常反應請立即聯絡我哋。祝你健康，Skin&Beam, HK",
+        "做完{{treatment_name}}後，請：{{specific_aftercare_info}}。同時保持基本護理措施(補水、休息、避免酒精、防曬)。你嘅皮膚需要約{{recovery_time}}嚟完全恢復。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "opening_hours",
+      "response_id": "opening_hours_info",
+      "text": "Skin&Beam HK所有分店嘅營業時間：平日(星期一至五)：上午11:00至晚上9:00，週末(星期六、日)同假日：上午10:00至晚上8:00。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "Skin&Beam HK所有分店都開放時間：平日(星期一至五)11:00至21:00，週末(星期六、日)同假日10:00至20:00。祝你健康，Skin&Beam, HK",
+        "我哋嘅營業時間：平日：上午11時至晚上9時，週末同假日：上午10時至晚上8時。呢個時間適用於所有分店。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "walk_in_policy",
+      "response_id": "walk_in_policy_info",
+      "text": "你可以walk-in(即係唔使預約直接嚟)做大部分服務。不過，我哋建議你至少喺關門前1小時到達。某些療程如Thermage、Ultherapy、Emsculpt同Micool建議預約先，唔好直接walk-in。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "Skin&Beam HK接受walk-in(唔使預約)做大部分服務。請喺關門前至少1小時到達。注意：Thermage、Ultherapy、Emsculpt同Micool等身體療程建議預約先。祝你健康，Skin&Beam, HK",
+        "你完全可以唔使預約直接嚟做大部分服務。不過，建議喺關門前至少1小時到達。深層療程如Thermage、Ultherapy、Emsculpt同Micool就需要預約先。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "treatment_combination",
+      "response_id": "treatment_combination_info",
+      "text": "喺Skin&Beam HK，大部分療程都可以同時進行或者喺短時間內進行。你可以喺一次到診中接受多種療程，節省時間。關於療程組合嘅詳細指引會喺免費咨詢時提供。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "大部分Skin&Beam HK嘅療程可以喺同一次到診中組合。咁樣可以節省時間同優化效果。我哋會喺免費咨詢時就適合嘅組合提供具體建議。祝你健康，Skin&Beam, HK",
+        "我哋嘅療程設計可以有效組合。你可以喺同一次到診中接受唔同服務。醫生同專家會喺咨詢時建議最佳組合方案。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "treatment_difference",
+      "response_id": "treatment_difference_info",
+      "text": "{{treatment_comparison}}。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "{{treatment_comparison}}。你想了解任何服務嘅更多詳情嗎？祝你健康，Skin&Beam, HK",
+        "{{treatment_comparison}}。我哋可以喺免費咨詢時提供更詳細嘅資訊。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "price_inquiry",
+      "response_id": "price_inquiry_info",
+      "text": "{{service_price_info}}。所有服務都包括療程前嘅免費咨詢。你想預約咨詢嗎？祝你健康，Skin&Beam, HK",
+      "variations": [
+        "{{service_price_info}}。我哋喺療程前提供免費咨詢，確保服務符合你嘅需求。你想預約嗎？祝你健康，Skin&Beam, HK",
+        "{{service_price_info}}。療程前你會獲得免費咨詢。咁樣可以確定最適合你皮膚狀況嘅方法。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "language_support",
+      "response_id": "language_support_info",
+      "text": "Skin&Beam HK提供多種語言服務，包括中文(廣東話)、英文同越南文。我哋努力確保客人可以用最舒適嘅語言獲得服務。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋支援多種語言包括廣東話、英文同越南文。我哋嘅多語言員工團隊準備好以最有效嘅方式幫助你。祝你健康，Skin&Beam, HK",
+        "Skin&Beam HK團隊可以用廣東話、英文同越南文溝通。我哋確保所有客人都能用佢哋最熟悉嘅語言獲得服務。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "contour_injection_inquiry",
+      "response_id": "contour_injection_info",
+      "text": "Contour Injection係Skin&Beam基於獨家技術研發嘅產品。產品用安全有效嘅成分製造，但基於商業原因唔能公開具體成分。我哋保證產品製造過程中冇添加類固醇。Contour Injection嘅價格係$300一個區域(面部/雙下巴)或$800三次療程。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "Contour Injection係Skin&Beam嘅獨家技術，用安全成分製造(冇類固醇)。具體成分因商業原因唔公開。價格：$300/一個區域或$800/三次療程。祝你健康，Skin&Beam, HK",
+        "Skin&Beam獨家研發嘅Contour Injection產品保證安全有效。產品冇類固醇，但具體成分係商業機密。你可以選擇：一個區域(面部/雙下巴)$300或三次療程$800。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "toxin_correction",
+      "response_id": "toxin_correction_info",
+      "text": "喺Skin&Beam HK，如果客人覺得肉毒桿菌素冇效果，我哋唔提供免費重做。如果效果唔明顯或者有副作用，我哋建議觀察大約2週。如果唔係嚴重問題，我哋唔建議重做，而補充療程會收額外費用。肉毒桿菌素嘅效果會因個人身體反應而異。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋唔提供免費重做肉毒桿菌素療程。如果你覺得效果唔如理想，請等約2週作完整評估。補充療程會收取費用。肉毒桿菌素嘅效果會因個人體質而異。祝你健康，Skin&Beam, HK",
+        "肉毒桿菌素效果因人而異。我哋唔提供免費重做，而係建議觀察約2週。若需要補充療程，除非係嚴重問題，否則會收額外費用。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "filler_dissolving",
+      "response_id": "filler_dissolving_info",
+      "text": "Skin&Beam HK唔提供透明質酸酶(溶解填充劑)服務。如果你對喺其他診所注射嘅填充劑有問題或需要溶解服務，我哋建議你返回原來嘅診所。咁樣可以確保護理同治療嘅連續性。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋唔提供溶解填充劑(透明質酸酶)服務。如果你喺其他地方注射嘅填充劑有問題，請聯絡原來診所獲取最佳協助。祝你健康，Skin&Beam, HK",
+        "Skin&Beam HK唔進行填充劑溶解服務。如果需要處理填充劑問題，我哋建議你聯絡原本進行注射嘅診所。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "gift_voucher",
+      "response_id": "gift_voucher_info",
+      "text": "目前，Skin&Beam HK冇出售正式禮券。不過，你可以直接購買療程送畀其他人。我哋會喺呢個過程中協助你，確保你嘅禮物完整傳達。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋冇出售正式禮券。不過，你完全可以購買服務作為送畀親友嘅禮物。我哋嘅員工會指導你完成需要嘅步驟。祝你健康，Skin&Beam, HK",
+        "Skin&Beam HK冇提供禮券，但你仍然可以購買服務送畀他人。我哋會協助確保過程順利進行。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "referral_program",
+      "response_id": "referral_program_info",
+      "text": "目前，Skin&Beam HK冇正式嘅推薦獎勵計劃。不過，我哋非常感謝客人將我哋嘅服務推薦畀朋友同親人。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋而家冇正式嘅推薦計劃。不過，當你介紹親友嚟Skin&Beam HK，我哋非常感激。祝你健康，Skin&Beam, HK",
+        "Skin&Beam HK而家冇正式推薦朋友計劃。我哋非常珍惜你將我哋嘅服務推薦畀親友嘅信任。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "custom_treatment_plan",
+      "response_id": "custom_treatment_plan_info",
+      "text": "喺Skin&Beam HK，每位客人都會獲得免費咨詢，量身定制適合個人需求同具體皮膚狀況嘅療程計劃。我哋會仔細評估你嘅皮膚狀況，聆聽你嘅關注點，然後建議最佳解決方案。你可以喺我哋任何分店預約免費咨詢。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "我哋一直提供免費咨詢，為每位客人制定個人療程計劃。專家會評估你嘅皮膚狀況並建議最合適嘅療程。請喺最近嘅分店預約咨詢。祝你健康，Skin&Beam, HK",
+        "個人化療程計劃係Skin&Beam HK嘅首要任務。透過免費咨詢，我哋會詳細評估你嘅皮膚狀況同需求，提出最有效嘅療程建議。祝你健康，Skin&Beam, HK"
+      ]
+    },
+    {
+      "intent": "treatment_results",
+      "response_id": "treatment_results_info",
+      "text": "{{treatment_results_description}}。效果會因個人而異，取決於年齡、皮膚狀況、生活方式同療程後護理嘅遵守情況等多個因素。我哋建議喺免費咨詢時諮詢專家，獲取關於預期效果嘅更詳細資訊。祝你健康，Skin&Beam, HK",
+      "variations": [
+        "{{treatment_results_description}}。請注意，效果會因個人而異，取決於年齡、初始皮膚狀況同療程後護理等個人因素。預約免費咨詢了解更多詳情。祝你健康，Skin&Beam, HK",
+        "對於{{treatment_name}}，{{treatment_results_description}}。效果會基於多個因素而因人而異。請參加免費咨詢獲取關於你個人情況嘅具體資訊。祝你健康，Skin&Beam, HK"
+      ]
+    }
+  ]
+}
